@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_c[0m
+[  2%] Built target beginner_tutorials__cpp
+[  5%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 13%] Built target beginner_tutorials__rosidl_generator_c
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/change_string__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/change_string__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o[0m
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 45%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so[0m
+[ 45%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 48%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/change_string__type_support.c.o[0m
+[ 51%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 51%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 54%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so[0m
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 56%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so[0m
+[ 59%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 59%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 62%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 62%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target beginner_tutorials
+[ 64%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 70%] Built target beginner_tutorials__py
+[ 72%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so[0m
+[ 75%] Built target beginner_tutorials__rosidl_generator_py
+[ 78%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 94%] [32m[1mLinking CXX executable server_client[0m
+[ 94%] Built target server_client
+[ 97%] [32m[1mLinking CXX executable talker[0m
+[ 97%] Built target talker

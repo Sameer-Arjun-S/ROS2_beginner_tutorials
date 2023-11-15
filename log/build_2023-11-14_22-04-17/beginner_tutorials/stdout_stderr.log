@@ -1,0 +1,34 @@
+[  2%] Built target beginner_tutorials__cpp
+[ 10%] Built target beginner_tutorials__rosidl_generator_c
+[ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 13%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 27%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 29%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 37%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 62%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 62%] Built target beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target server_client[0m
+[ 64%] Built target beginner_tutorials__py
+[ 67%] [32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o[0m
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/change_string.hpp: No such file or directory
+    8 | #include [01;31m[K"beginner_tutorials/srv/change_string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 72%] Built target talker
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 78%] Built target beginner_tutorials__rosidl_generator_py
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 78%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 81%] [32m[1mLinking CXX executable server_client[0m
+[ 81%] Built target server_client
+gmake: *** [Makefile:146: all] Error 2

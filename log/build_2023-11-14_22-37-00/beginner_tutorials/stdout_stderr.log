@@ -1,0 +1,85 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  2%] Built target beginner_tutorials__cpp
+[ 10%] Built target beginner_tutorials__rosidl_generator_c
+[ 16%] Built target listener
+[ 16%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 24%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 32%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 40%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 56%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 64%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 64%] Built target beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 67%] Built target beginner_tutorials__py
+[ 72%] Built target server_client
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:47:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   56 |       RCLCPP_ERROR_STREAM(this->get_logger(), [01;35m[K"[m[KError encountered at time of
+      |                                               [01;35m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:58:21:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   58 |       may not work!![01;35m[K"[m[K);
+      |                     [01;35m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:113:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_ERROR_STREAM"
+  113 | }
+      |  [01;31m[K^[m[K
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+      |                          [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:30:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   30 | class Publisher : public rclcpp::Node [01;36m[K{[m[K
+      |                                       [01;36m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:32:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   32 |   Publisher() : Node("publisher"), [01;31m[Kcount_[m[K(0) {
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+   34 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("chatter", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KPublisher[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:45:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   45 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KPublisher[m[K’
+   47 |           std::bind(&Publisher::[01;31m[Ktimer_callback[m[K, this));
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:49:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope
+   49 |       [01;31m[Kserver[m[K = this->create_service<beginner_tutorials::srv::ChangeString>(
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[KchangeString[m[K’ is not a member of ‘[01m[KPublisher[m[K’
+   51 |           std::bind(&Publisher::[01;31m[KchangeString[m[K, this, std::placeholders::_1,
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR_STREAM[m[K’ was not declared in this scope
+   56 |       [01;31m[KRCLCPP_ERROR_STREAM[m[K(this->get_logger(), "Error encountered at time of
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+      |                          [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:55:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   55 |     } catch (...) [01;36m[K{[m[K
+      |                   [01;36m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+      |                          [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:32:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   32 |   Publisher() : Node("publisher"), count_(0) [01;36m[K{[m[K
+      |                                              [01;36m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K At global scope:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+      |                          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
