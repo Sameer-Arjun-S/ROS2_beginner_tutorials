@@ -26,6 +26,11 @@ ros2 run beginner_tutorials talker
 ros2 run beginner_tutorials listener 
 ```
 
+### Running service client
+```
+ros2 run beginner_tutorials server_client <new_string_to_publish>
+```
+
 ### CppCheck
 ```bash
 # If you need to install cppcheck, do
