@@ -81,3 +81,5 @@ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./buil
 [INFO] [1699397211.603818082] [Subscriber]: Hey, I heard: 'Hey there, ROS2 here! 11'
 
 ```
+### Results from rqt_console
+![service_client](https://github.com/Sameer-Arjun-S/ROS2_beginner_tutorials/assets/112655999/bd503082-ef95-45cf-b41d-9a17cae380a8)
