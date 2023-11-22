@@ -1,0 +1,114 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  8%] Built target beginner_tutorials__rosidl_generator_c
+[ 10%] Built target beginner_tutorials__cpp
+[ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c[0m
+[ 13%] Built target ament_cmake_python_copy_beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_cpp[0m
+[ 21%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 29%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 37%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 45%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 62%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 62%] Built target beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target server_client[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 64%] Built target beginner_tutorials__py
+[ 70%] Built target server_client
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_py[0m
+[ 75%] Built target talker
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c__pyext[0m
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:38:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials[m[K’ was not declared in this scope
+   38 |   rclcpp::Client<[01;31m[Kbeginner_tutorials[m[K::srv::ChangeString>::SharedPtr client;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:38:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   rclcpp::Client<beginner_tutorials::srv::ChangeString[01;31m[K>[m[K::SharedPtr client;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:38:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   38 |   rclcpp::Client<beginner_tutorials::srv::ChangeString>::[01;31m[KSharedPtr[m[K client;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:38:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ does not name a type
+   38 |   rclcpp::Client<beginner_tutorials::srv::ChangeString>::SharedPtr [01;31m[Kclient[m[K;
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:[m[K In constructor ‘[01m[KServerClient::ServerClient()[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   28 |     [01;31m[Kclient[m[K = this->create_client<beginner_tutorials::srv::ChangeString>(
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials[m[K’ was not declared in this scope
+   28 |     client = this->create_client<[01;31m[Kbeginner_tutorials[m[K::srv::ChangeString>(
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:20:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   28 |     client = this->[01;31m[Kcreate_client<beginner_tutorials::srv::ChangeString>[m[K(
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServerClient::create_client<<expression error> >(const char [13])[m[K’
+   28 |     client = [01;31m[Kthis->create_client<beginner_tutorials::srv::ChangeString>([m[K
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   29 | [01;31m[K        "service_node")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     client = [01;31m[Kthis->create_client<beginner_tutorials::srv::ChangeString>([m[K
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   29 | [01;31m[K        "service_node")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                 
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:[m[K In member function ‘[01m[Kauto ServerClient::getRequest(char**)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials[m[K’ was not declared in this scope
+   33 |         [01;31m[Kbeginner_tutorials[m[K::srv::ChangeString::Request>();  // CHANGE
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:32:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   32 |     auto request = std::[01;31m[Kmake_shared<[m[K
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+   33 | [01;31m[K        beginner_tutorials::srv::ChangeString::Request>[m[K();  // CHANGE
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:33:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   32 |     auto request = [01;31m[Kstd::make_shared<[m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~[m[K                    
+   33 | [01;31m[K        beginner_tutorials::srv::ChangeString::Request>()[m[K;  // CHANGE
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:9[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:33:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |     auto request = [01;31m[Kstd::make_shared<[m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~[m[K                    
+   33 | [01;31m[K        beginner_tutorials::srv::ChangeString::Request>()[m[K;  // CHANGE
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:45:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ServerClient[m[K’ {aka ‘[01m[Kclass ServerClient[m[K’} has no member named ‘[01m[Kclient[m[K’
+   45 |   while (!SClient->[01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:55:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ServerClient[m[K’ {aka ‘[01m[Kclass ServerClient[m[K’} has no member named ‘[01m[Kclient[m[K’
+   55 |   auto result = SClient->[01;31m[Kclient[m[K->async_send_request(request);
+      |                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/change_string.hpp: No such file or directory
+    8 | #include [01;31m[K"beginner_tutorials/srv/change_string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,89 @@
+[0.148s] Invoking command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.255s] [  8%] Built target beginner_tutorials__rosidl_generator_c
+[0.264s] [ 10%] Built target beginner_tutorials__cpp
+[0.280s] [ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[0.291s] [ 13%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.303s] [ 21%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.311s] [ 29%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.319s] [ 37%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.321s] [ 45%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.333s] [ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.336s] [ 62%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.378s] [ 62%] Built target beginner_tutorials
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.424s] [ 64%] Built target beginner_tutorials__py
+[0.429s] [ 70%] Built target server_client
+[0.440s] [ 72%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.472s] [ 78%] Built target beginner_tutorials__rosidl_generator_py
+[0.516s] [ 83%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.517s] [ 89%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.520s] [ 94%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[0.768s] running egg_info
+[0.769s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.770s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.771s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.775s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.776s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.824s] [ 94%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[0.854s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:47:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.854s]    56 |       RCLCPP_ERROR_STREAM(this->get_logger(), [01;35m[K"[m[KError encountered at time of
+[0.854s]       |                                               [01;35m[K^[m[K
+[0.854s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:58:21:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.854s]    58 |       may not work!![01;35m[K"[m[K);
+[0.855s]       |                     [01;35m[K^[m[K
+[0.855s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:113:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_ERROR_STREAM"
+[0.855s]   113 | }
+[0.855s]       |  [01;31m[K^[m[K
+[5.114s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.114s]    56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+[5.115s]       |                          [01;31m[K^[m[K
+[5.115s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:30:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.115s]    30 | class Publisher : public rclcpp::Node [01;36m[K{[m[K
+[5.115s]       |                                       [01;36m[K^[m[K
+[5.118s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[5.118s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:32:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[5.118s]    32 |   Publisher() : Node("publisher"), [01;31m[Kcount_[m[K(0) {
+[5.118s]       |                                    [01;31m[K^~~~~~[m[K
+[5.128s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+[5.128s]    34 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("chatter", 10);
+[5.128s]       |       [01;31m[K^~~~~~~~~~[m[K
+[5.129s]       |       [32m[KPublisher[m[K
+[5.149s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:45:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.149s]    45 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[5.149s]       |       [01;31m[K^~~~~~[m[K
+[5.149s]       |       [32m[Ktimer_t[m[K
+[5.152s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KPublisher[m[K’
+[5.152s]    47 |           std::bind(&Publisher::[01;31m[Ktimer_callback[m[K, this));
+[5.152s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.171s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:49:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope
+[5.171s]    49 |       [01;31m[Kserver[m[K = this->create_service<beginner_tutorials::srv::ChangeString>(
+[5.171s]       |       [01;31m[K^~~~~~[m[K
+[5.171s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[KchangeString[m[K’ is not a member of ‘[01m[KPublisher[m[K’
+[5.172s]    51 |           std::bind(&Publisher::[01;31m[KchangeString[m[K, this, std::placeholders::_1,
+[5.172s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[5.194s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR_STREAM[m[K’ was not declared in this scope
+[5.194s]    56 |       [01;31m[KRCLCPP_ERROR_STREAM[m[K(this->get_logger(), "Error encountered at time of
+[5.194s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.194s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.194s]    56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+[5.195s]       |                          [01;31m[K^[m[K
+[5.195s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:55:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.195s]    55 |     } catch (...) [01;36m[K{[m[K
+[5.195s]       |                   [01;36m[K^[m[K
+[5.195s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.195s]    56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+[5.195s]       |                          [01;31m[K^[m[K
+[5.195s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:32:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.195s]    32 |   Publisher() : Node("publisher"), count_(0) [01;36m[K{[m[K
+[5.195s]       |                                              [01;36m[K^[m[K
+[5.196s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K At global scope:
+[5.196s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:56:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[5.196s]    56 |       RCLCPP_ERROR_STREAM[01;31m[K([m[Kthis->get_logger(), "Error encountered at time of
+[5.196s]       |                          [01;31m[K^[m[K
+[6.378s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[6.379s] gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+[6.379s] gmake[1]: *** Waiting for unfinished jobs....
+[16.290s] [ 97%] [32m[1mLinking CXX executable listener[0m
+[17.009s] [ 97%] Built target listener
+[17.011s] gmake: *** [Makefile:146: all] Error 2
+[17.015s] Invoked command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

@@ -1,0 +1,63 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  2%] Built target beginner_tutorials__cpp
+[ 10%] Built target beginner_tutorials__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 16%] Built target listener
+[ 24%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 32%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 40%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 56%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 64%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 64%] Built target beginner_tutorials
+[ 67%] Built target beginner_tutorials__py
+[ 70%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 75%] Built target server_client
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_resp_message[m[K’ was not declared in this scope
+   38 |     [01;31m[Kserver_resp_message[m[K = response->op;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:13[m[K:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   61 |   RCLCPP_WARN_STREAM([01;31m[Knode[m[K->get_logger(), "Shutting Down!! " << 4);
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   61 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   61 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:61:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

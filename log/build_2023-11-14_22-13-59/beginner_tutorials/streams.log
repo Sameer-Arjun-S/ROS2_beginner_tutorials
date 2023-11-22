@@ -1,0 +1,86 @@
+[0.136s] Invoking command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.257s] [  2%] Built target beginner_tutorials__cpp
+[0.258s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.261s] [ 10%] Built target beginner_tutorials__rosidl_generator_c
+[0.297s] [ 10%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.299s] [ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[0.305s] [ 29%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.305s] [ 29%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.308s] [ 37%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.313s] [ 45%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.321s] [ 54%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.323s] [ 62%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.363s] [ 62%] Built target beginner_tutorials
+[0.409s] [ 64%] Built target beginner_tutorials__py
+[0.416s] [ 70%] Built target talker
+[0.420s] [ 75%] Built target server_client
+[0.454s] [ 81%] Built target beginner_tutorials__rosidl_generator_py
+[0.491s] [ 86%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[0.498s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.500s] [ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.781s] running egg_info
+[0.782s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.783s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.783s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.788s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.839s] [ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[4.807s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:17:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalSubscriber[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.807s]    17 |   [01;31m[KMinimalSubscriber[m[K() : Node("subscriber") {
+[4.807s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.886s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:[m[K In member function ‘[01m[Kint Subscriber::MinimalSubscriber()[m[K’:
+[4.886s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:17:25:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[4.886s]    17 |   MinimalSubscriber() : [01;31m[KNode[m[K("subscriber") {
+[4.886s]       |                         [01;31m[K^~~~[m[K
+[4.886s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:21:22:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ is not a class, namespace, or enumeration
+[4.886s]    21 |           std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+[4.886s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.891s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:28:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.891s]    28 |   [01;35m[K}[m[K
+[4.891s]       |   [01;35m[K^[m[K
+[4.904s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.904s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:45:32:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ was not declared in this scope
+[4.904s]    45 |   auto node = std::make_shared<[01;31m[KMinimalSubscriber[m[K>();
+[4.904s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.907s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:45:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[4.907s]    45 |   auto node = [01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K;
+[4.907s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.908s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.908s]                  from [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:6[m[K:
+[4.908s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[4.909s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.909s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.909s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.909s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:45:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.909s]    45 |   auto node = [01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K;
+[4.909s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.909s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.910s]                  from [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:7[m[K:
+[4.910s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:49:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.910s]    49 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+[4.910s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.911s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.911s]    49 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+[4.911s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.911s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:49:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.911s]    49 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+[4.911s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.911s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.911s]    49 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+[4.911s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.911s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:49:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.912s]    49 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Shutting Down!! " << 4);
+[4.912s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.732s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+[5.734s] gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/listener.dir/all] Error 2
+[5.734s] gmake: *** [Makefile:146: all] Error 2
+[5.737s] Invoked command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

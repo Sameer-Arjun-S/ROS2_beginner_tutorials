@@ -1,0 +1,26 @@
+[  2%] Built target beginner_tutorials__cpp
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 10%] Built target beginner_tutorials__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 29%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 29%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 37%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 45%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 62%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 62%] Built target beginner_tutorials
+[ 64%] Built target beginner_tutorials__py
+[ 70%] Built target talker
+[ 75%] Built target server_client
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg

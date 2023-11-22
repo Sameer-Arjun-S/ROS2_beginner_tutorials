@@ -1,0 +1,7 @@
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_resp_message[m[K’ was not declared in this scope
+   38 |     [01;31m[Kserver_resp_message[m[K = response->op;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

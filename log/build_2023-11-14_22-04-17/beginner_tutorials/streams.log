@@ -1,0 +1,36 @@
+[0.128s] Invoking command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.235s] [  2%] Built target beginner_tutorials__cpp
+[0.237s] [ 10%] Built target beginner_tutorials__rosidl_generator_c
+[0.246s] [ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[0.256s] [ 13%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.310s] [ 27%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.310s] [ 29%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.314s] [ 37%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.322s] [ 54%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.325s] [ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.333s] [ 62%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.384s] [ 62%] Built target beginner_tutorials
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.423s] [35m[1mConsolidate compiler generated dependencies of target server_client[0m
+[0.467s] [ 64%] Built target beginner_tutorials__py
+[0.473s] [ 67%] [32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o[0m
+[0.473s] [01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/change_string.hpp: No such file or directory
+[0.473s]     8 | #include [01;31m[K"beginner_tutorials/srv/change_string.hpp"[m[K
+[0.474s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.474s] compilation terminated.
+[0.474s] [ 72%] Built target talker
+[0.477s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+[0.477s] gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/listener.dir/all] Error 2
+[0.477s] gmake[1]: *** Waiting for unfinished jobs....
+[0.516s] [ 78%] Built target beginner_tutorials__rosidl_generator_py
+[0.784s] running egg_info
+[0.785s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.785s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.787s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.791s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.792s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.845s] [ 78%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[7.343s] [ 81%] [32m[1mLinking CXX executable server_client[0m
+[7.672s] [ 81%] Built target server_client
+[7.674s] gmake: *** [Makefile:146: all] Error 2
+[7.679s] Invoked command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

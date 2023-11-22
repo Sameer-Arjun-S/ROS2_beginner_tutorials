@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.001198] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.100250] (-) TimerEvent: {}
+[0.153631] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.154969] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'build'}
+[0.157426] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sas/ros2_ws/src/beginner_tutorials/install:/home/sas/ros2_ws/beginner_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1848,unix/sas-virtual-machine:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/753fe22a_c069_4c2c_9c48_2ca5b02f326d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VX8BE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.405'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials:/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials:/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials:/opt/ros/humble')]), 'shell': False}
+[0.200632] (-) TimerEvent: {}
+[0.273376] (beginner_tutorials) StdoutLine: {'line': b'[  8%] Built target beginner_tutorials__rosidl_generator_c\n'}
+[0.274732] (beginner_tutorials) StdoutLine: {'line': b'[ 10%] Built target beginner_tutorials__cpp\n'}
+[0.284427] (beginner_tutorials) StdoutLine: {'line': b'[ 16%] Built target listener\n'}
+[0.301009] (-) TimerEvent: {}
+[0.339193] (beginner_tutorials) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_copy_beginner_tutorials\n'}
+[0.401261] (-) TimerEvent: {}
+[0.440283] (beginner_tutorials) StdoutLine: {'line': b'[ 24%] Built target beginner_tutorials__rosidl_typesupport_c\n'}
+[0.447848] (beginner_tutorials) StdoutLine: {'line': b'[ 37%] Built target beginner_tutorials__rosidl_typesupport_introspection_c\n'}
+[0.452597] (beginner_tutorials) StdoutLine: {'line': b'[ 40%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[0.453520] (beginner_tutorials) StdoutLine: {'line': b'[ 48%] Built target beginner_tutorials__rosidl_typesupport_cpp\n'}
+[0.466761] (beginner_tutorials) StdoutLine: {'line': b'[ 56%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[0.466984] (beginner_tutorials) StdoutLine: {'line': b'[ 64%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[0.502081] (-) TimerEvent: {}
+[0.509127] (beginner_tutorials) StdoutLine: {'line': b'[ 64%] Built target beginner_tutorials\n'}
+[0.548779] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.655966] (-) TimerEvent: {}
+[0.689142] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] Built target server_client\n'}
+[0.704482] (beginner_tutorials) StdoutLine: {'line': b'[ 72%] Built target beginner_tutorials__py\n'}
+[0.729262] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.756266] (-) TimerEvent: {}
+[0.776660] (beginner_tutorials) StdoutLine: {'line': b'[ 81%] Built target beginner_tutorials__rosidl_generator_py\n'}
+[0.893551] (-) TimerEvent: {}
+[0.989930] (beginner_tutorials) StdoutLine: {'line': b'[ 86%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.997847] (-) TimerEvent: {}
+[1.020885] (beginner_tutorials) StdoutLine: {'line': b'[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[1.132603] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target beginner_tutorials__rosidl_typesupport_c__pyext\n'}
+[1.135134] (-) TimerEvent: {}
+[1.235762] (-) TimerEvent: {}
+[1.373640] (-) TimerEvent: {}
+[1.446444] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[1.448045] (beginner_tutorials) StdoutLine: {'line': b'writing beginner_tutorials.egg-info/PKG-INFO\n'}
+[1.448996] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt\n'}
+[1.453808] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to beginner_tutorials.egg-info/top_level.txt\n'}
+[1.462073] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[1.462242] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[1.473976] (-) TimerEvent: {}
+[1.512845] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg\n'}
+[1.574209] (-) TimerEvent: {}
+[1.675066] (-) TimerEvent: {}
+[1.776084] (-) TimerEvent: {}
+[1.876990] (-) TimerEvent: {}
+[1.977908] (-) TimerEvent: {}
+[2.078631] (-) TimerEvent: {}
+[2.179290] (-) TimerEvent: {}
+[2.280246] (-) TimerEvent: {}
+[2.380963] (-) TimerEvent: {}
+[2.482202] (-) TimerEvent: {}
+[2.583206] (-) TimerEvent: {}
+[2.683842] (-) TimerEvent: {}
+[2.784684] (-) TimerEvent: {}
+[2.885530] (-) TimerEvent: {}
+[2.986555] (-) TimerEvent: {}
+[3.087437] (-) TimerEvent: {}
+[3.188525] (-) TimerEvent: {}
+[3.289488] (-) TimerEvent: {}
+[3.390490] (-) TimerEvent: {}
+[3.491337] (-) TimerEvent: {}
+[3.592363] (-) TimerEvent: {}
+[3.693360] (-) TimerEvent: {}
+[3.794647] (-) TimerEvent: {}
+[3.895762] (-) TimerEvent: {}
+[3.996380] (-) TimerEvent: {}
+[4.098466] (-) TimerEvent: {}
+[4.199204] (-) TimerEvent: {}
+[4.299703] (-) TimerEvent: {}
+[4.400550] (-) TimerEvent: {}
+[4.502046] (-) TimerEvent: {}
+[4.602726] (-) TimerEvent: {}
+[4.703580] (-) TimerEvent: {}
+[4.804540] (-) TimerEvent: {}
+[4.905775] (-) TimerEvent: {}
+[5.006858] (-) TimerEvent: {}
+[5.107806] (-) TimerEvent: {}
+[5.208794] (-) TimerEvent: {}
+[5.310058] (-) TimerEvent: {}
+[5.411334] (-) TimerEvent: {}
+[5.512035] (-) TimerEvent: {}
+[5.537446] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.538037] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserver_resp_message\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.538164] (beginner_tutorials) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Kserver_resp_message\x1b[m\x1b[K = response->op;\n'}
+[5.538641] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.612265] (-) TimerEvent: {}
+[5.713615] (-) TimerEvent: {}
+[5.814367] (-) TimerEvent: {}
+[5.915053] (-) TimerEvent: {}
+[6.015952] (-) TimerEvent: {}
+[6.116750] (-) TimerEvent: {}
+[6.217499] (-) TimerEvent: {}
+[6.318397] (-) TimerEvent: {}
+[6.419062] (-) TimerEvent: {}
+[6.519835] (-) TimerEvent: {}
+[6.620722] (-) TimerEvent: {}
+[6.723169] (-) TimerEvent: {}
+[6.824085] (-) TimerEvent: {}
+[6.925026] (-) TimerEvent: {}
+[7.025943] (-) TimerEvent: {}
+[7.126638] (-) TimerEvent: {}
+[7.128927] (beginner_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[7.129748] (beginner_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2\n'}
+[7.130475] (beginner_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.134634] (beginner_tutorials) CommandEnded: {'returncode': 2}
+[7.227617] (-) TimerEvent: {}
+[7.330446] (-) TimerEvent: {}
+[7.433297] (-) TimerEvent: {}
+[7.438926] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 2}
+[7.451126] (-) EventReactorShutdown: {}

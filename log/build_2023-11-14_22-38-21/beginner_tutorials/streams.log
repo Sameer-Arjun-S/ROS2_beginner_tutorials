@@ -1,0 +1,160 @@
+[0.154s] Invoking command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.259s] [  2%] Built target beginner_tutorials__cpp
+[0.267s] [ 10%] Built target beginner_tutorials__rosidl_generator_c
+[0.286s] [ 16%] Built target listener
+[0.286s] [ 16%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.309s] [ 24%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.312s] [ 37%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.312s] [ 40%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.318s] [ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.321s] [ 56%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.321s] [ 64%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.367s] [ 64%] Built target beginner_tutorials
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.409s] [ 67%] Built target beginner_tutorials__py
+[0.418s] [ 72%] Built target server_client
+[0.427s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.451s] [ 81%] Built target beginner_tutorials__rosidl_generator_py
+[0.520s] [ 86%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[0.520s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.522s] [ 97%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.764s] running egg_info
+[0.764s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.764s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.765s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.769s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.770s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.818s] [ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[10.298s] [100%] [32m[1mLinking CXX executable talker[0m
+[10.801s] [100%] Built target talker
+[10.821s] Invoked command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[10.989s] Invoking command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials
+[10.999s] -- Install configuration: ""
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/rosidl_interfaces/beginner_tutorials
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_generator_c__visibility_control.h
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/change_string.h
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__functions.h
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.h
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__functions.c
+[10.999s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__struct.h
+[11.000s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.sh
+[11.000s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.dsv
+[11.000s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_c.so
+[11.000s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[11.000s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[11.001s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.001s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[11.001s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__traits.hpp
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__builder.hpp
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__struct.hpp
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/change_string.hpp
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.002s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/dds_fastrtps
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[11.003s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.c
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_introspection_c.h
+[11.004s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_c.so
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_c.so
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.cpp
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_cpp.so
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.sh
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.dsv
+[11.010s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info
+[11.011s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.011s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/top_level.txt
+[11.011s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.011s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/PKG-INFO
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/__init__.py
+[11.011s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_change_string_s.c
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/__init__.py
+[11.012s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_change_string.py
+[11.073s] Listing '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials'...
+[11.073s] Listing '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv'...
+[11.083s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.084s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.084s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.084s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_py.so
+[11.084s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString.idl
+[11.085s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString.srv
+[11.085s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString_Request.msg
+[11.086s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString_Response.msg
+[11.087s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker
+[11.089s] -- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker" to ""
+[11.092s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/listener
+[11.093s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/server_client
+[11.093s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/launch
+[11.094s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/launch/custom_launch.yaml
+[11.094s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/package_run_dependencies/beginner_tutorials
+[11.094s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/parent_prefix_path/beginner_tutorials
+[11.094s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.sh
+[11.095s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.dsv
+[11.095s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.sh
+[11.095s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.dsv
+[11.095s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.bash
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.sh
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.zsh
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.dsv
+[11.096s] -- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.dsv
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/packages/beginner_tutorials
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport.cmake
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport-noconfig.cmake
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport.cmake
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cppExport.cmake
+[11.096s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport-noconfig.cmake
+[11.097s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.098s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake-extras.cmake
+[11.098s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.098s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[11.098s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[11.100s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.101s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.101s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+[11.104s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+[11.104s] -- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.xml
+[11.105s] Invoked command in '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials

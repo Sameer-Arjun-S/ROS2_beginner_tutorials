@@ -1,0 +1,637 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.000639] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.095713] (-) TimerEvent: {}
+[0.187995] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.189107] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/sas/ros2_ws/src/beginner_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials'], 'cwd': '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1848,unix/sas-virtual-machine:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3a3d308_bf90_4077_8b70_7dfd7571f2aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VX8BE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.324'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.204035] (-) TimerEvent: {}
+[0.236170] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.319124] (-) TimerEvent: {}
+[0.458893] (-) TimerEvent: {}
+[0.573667] (-) TimerEvent: {}
+[0.648824] (beginner_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.674324] (-) TimerEvent: {}
+[0.746643] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.748816] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.773028] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.774525] (-) TimerEvent: {}
+[0.808423] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.841751] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.875048] (-) TimerEvent: {}
+[0.976333] (-) TimerEvent: {}
+[1.007002] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.015765] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.076524] (-) TimerEvent: {}
+[1.179351] (-) TimerEvent: {}
+[1.280216] (-) TimerEvent: {}
+[1.323427] (beginner_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.380755] (-) TimerEvent: {}
+[1.481565] (-) TimerEvent: {}
+[1.582350] (-) TimerEvent: {}
+[1.685676] (-) TimerEvent: {}
+[1.786381] (-) TimerEvent: {}
+[1.897912] (-) TimerEvent: {}
+[1.931242] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.998892] (-) TimerEvent: {}
+[2.102760] (-) TimerEvent: {}
+[2.204195] (-) TimerEvent: {}
+[2.305224] (-) TimerEvent: {}
+[2.406868] (-) TimerEvent: {}
+[2.508353] (-) TimerEvent: {}
+[2.609457] (-) TimerEvent: {}
+[2.734217] (-) TimerEvent: {}
+[2.761370] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.834455] (-) TimerEvent: {}
+[2.935189] (-) TimerEvent: {}
+[3.036335] (-) TimerEvent: {}
+[3.137648] (-) TimerEvent: {}
+[3.251092] (-) TimerEvent: {}
+[3.354107] (-) TimerEvent: {}
+[3.456246] (-) TimerEvent: {}
+[3.558095] (-) TimerEvent: {}
+[3.659232] (-) TimerEvent: {}
+[3.748882] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.760686] (-) TimerEvent: {}
+[3.861749] (-) TimerEvent: {}
+[3.968823] (-) TimerEvent: {}
+[4.067037] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.069173] (-) TimerEvent: {}
+[4.131761] (beginner_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.134682] (beginner_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.169555] (-) TimerEvent: {}
+[4.211167] (beginner_tutorials) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.211736] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.211952] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.212149] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.266240] (beginner_tutorials) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.269824] (-) TimerEvent: {}
+[4.364421] (beginner_tutorials) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.364940] (beginner_tutorials) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.365185] (beginner_tutorials) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[4.365382] (beginner_tutorials) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.365540] (beginner_tutorials) StderrLine: {'line': b'  CMakeLists.txt:47 (rosidl_target_interfaces)\n'}
+[4.365692] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[4.365842] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[4.365988] (beginner_tutorials) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.366133] (beginner_tutorials) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.366276] (beginner_tutorials) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[4.366504] (beginner_tutorials) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.366655] (beginner_tutorials) StderrLine: {'line': b'  CMakeLists.txt:49 (rosidl_target_interfaces)\n'}
+[4.366799] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[4.366941] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[4.367515] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.376103] (-) TimerEvent: {}
+[4.479339] (-) TimerEvent: {}
+[4.509847] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.513695] (beginner_tutorials) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_cpp>;/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c;/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py\n'}
+[4.514068] (beginner_tutorials) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.527239] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.542857] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.549199] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.579673] (-) TimerEvent: {}
+[4.631522] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.633208] (beginner_tutorials) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.646219] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.654371] (beginner_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.680082] (-) TimerEvent: {}
+[4.766175] (beginner_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[4.775613] (beginner_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials\n'}
+[4.780306] (-) TimerEvent: {}
+[4.805249] (beginner_tutorials) CommandEnded: {'returncode': 0}
+[4.806094] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'build'}
+[4.806164] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1848,unix/sas-virtual-machine:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3a3d308_bf90_4077_8b70_7dfd7571f2aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VX8BE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.324'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.881539] (-) TimerEvent: {}
+[4.919582] (beginner_tutorials) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.000838] (-) TimerEvent: {}
+[5.009541] (beginner_tutorials) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[5.078549] (beginner_tutorials) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_beginner_tutorials\n'}
+[5.103403] (-) TimerEvent: {}
+[5.281738] (beginner_tutorials) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.282441] (-) TimerEvent: {}
+[5.385102] (-) TimerEvent: {}
+[5.488411] (-) TimerEvent: {}
+[5.656938] (-) TimerEvent: {}
+[5.777931] (-) TimerEvent: {}
+[6.038714] (-) TimerEvent: {}
+[6.197347] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[6.197796] (-) TimerEvent: {}
+[6.226680] (beginner_tutorials) StdoutLine: {'line': b'creating beginner_tutorials.egg-info\n'}
+[6.229562] (beginner_tutorials) StdoutLine: {'line': b'writing beginner_tutorials.egg-info/PKG-INFO\n'}
+[6.229753] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt\n'}
+[6.229921] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to beginner_tutorials.egg-info/top_level.txt\n'}
+[6.230147] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[6.230309] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[6.230460] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[6.393136] (beginner_tutorials) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_beginner_tutorials_egg\n'}
+[6.393519] (-) TimerEvent: {}
+[6.406349] (beginner_tutorials) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c.o\x1b[0m\n'}
+[6.493914] (-) TimerEvent: {}
+[6.624764] (-) TimerEvent: {}
+[6.651400] (beginner_tutorials) StdoutLine: {'line': b'[ 10%] Built target beginner_tutorials__cpp\n'}
+[6.725470] (-) TimerEvent: {}
+[6.851932] (beginner_tutorials) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.852376] (-) TimerEvent: {}
+[6.900243] (beginner_tutorials) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libbeginner_tutorials__rosidl_generator_c.so\x1b[0m\n'}
+[6.952826] (-) TimerEvent: {}
+[7.002059] (beginner_tutorials) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.011559] (beginner_tutorials) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.075215] (-) TimerEvent: {}
+[7.275112] (-) TimerEvent: {}
+[7.423279] (-) TimerEvent: {}
+[7.697694] (-) TimerEvent: {}
+[7.698327] (beginner_tutorials) StdoutLine: {'line': b'[ 21%] Built target beginner_tutorials__rosidl_generator_c\n'}
+[7.698868] (beginner_tutorials) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.712453] (beginner_tutorials) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.826949] (beginner_tutorials) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.827181] (-) TimerEvent: {}
+[8.005368] (-) TimerEvent: {}
+[8.108482] (-) TimerEvent: {}
+[8.288453] (-) TimerEvent: {}
+[8.299775] (beginner_tutorials) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/change_string__type_support.cpp.o\x1b[0m\n'}
+[8.389189] (-) TimerEvent: {}
+[8.552276] (-) TimerEvent: {}
+[8.712265] (beginner_tutorials) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/change_string__type_support.cpp.o\x1b[0m\n'}
+[8.717372] (-) TimerEvent: {}
+[8.824215] (-) TimerEvent: {}
+[8.952392] (-) TimerEvent: {}
+[9.088557] (-) TimerEvent: {}
+[9.196462] (beginner_tutorials) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/change_string__type_support.cpp.o\x1b[0m\n'}
+[9.197000] (-) TimerEvent: {}
+[9.428382] (-) TimerEvent: {}
+[9.583081] (-) TimerEvent: {}
+[9.809618] (beginner_tutorials) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o\x1b[0m\n'}
+[9.809992] (-) TimerEvent: {}
+[9.996864] (-) TimerEvent: {}
+[10.120071] (beginner_tutorials) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/change_string__type_support.cpp.o\x1b[0m\n'}
+[10.120438] (-) TimerEvent: {}
+[10.281766] (-) TimerEvent: {}
+[10.460243] (beginner_tutorials) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/change_string__type_support.c.o\x1b[0m\n'}
+[10.461340] (-) TimerEvent: {}
+[10.561990] (-) TimerEvent: {}
+[10.825287] (beginner_tutorials) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.825725] (-) TimerEvent: {}
+[10.961614] (-) TimerEvent: {}
+[11.243073] (beginner_tutorials) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.243539] (-) TimerEvent: {}
+[11.351373] (-) TimerEvent: {}
+[11.475880] (-) TimerEvent: {}
+[11.590294] (-) TimerEvent: {}
+[11.694709] (-) TimerEvent: {}
+[11.749941] (beginner_tutorials) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.840641] (-) TimerEvent: {}
+[12.111151] (-) TimerEvent: {}
+[12.152218] (beginner_tutorials) StdoutLine: {'line': b'[ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_c\n'}
+[12.152738] (beginner_tutorials) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.213034] (-) TimerEvent: {}
+[12.417516] (beginner_tutorials) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.417794] (-) TimerEvent: {}
+[12.417934] (beginner_tutorials) StdoutLine: {'line': b'[ 59%] Built target beginner_tutorials__rosidl_typesupport_cpp\n'}
+[12.418103] (beginner_tutorials) StdoutLine: {'line': b'[ 59%] Built target beginner_tutorials__rosidl_typesupport_c\n'}
+[12.543273] (-) TimerEvent: {}
+[12.647468] (-) TimerEvent: {}
+[12.749884] (-) TimerEvent: {}
+[12.849683] (beginner_tutorials) StdoutLine: {'line': b'[ 59%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[12.850180] (-) TimerEvent: {}
+[12.957111] (-) TimerEvent: {}
+[13.091680] (-) TimerEvent: {}
+[13.220069] (-) TimerEvent: {}
+[13.361685] (-) TimerEvent: {}
+[13.363484] (beginner_tutorials) StdoutLine: {'line': b'[ 59%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[13.461970] (-) TimerEvent: {}
+[13.564730] (-) TimerEvent: {}
+[13.681397] (beginner_tutorials) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.681701] (-) TimerEvent: {}
+[13.782187] (-) TimerEvent: {}
+[13.883195] (-) TimerEvent: {}
+[14.011730] (beginner_tutorials) StdoutLine: {'line': b'[ 62%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[14.012355] (-) TimerEvent: {}
+[14.120628] (-) TimerEvent: {}
+[14.134024] (beginner_tutorials) StdoutLine: {'line': b'[ 62%] Built target beginner_tutorials\n'}
+[14.254658] (-) TimerEvent: {}
+[14.348088] (beginner_tutorials) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o\x1b[0m\n'}
+[14.358902] (-) TimerEvent: {}
+[14.451873] (beginner_tutorials) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.452386] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[14.485418] (-) TimerEvent: {}
+[14.604291] (-) TimerEvent: {}
+[14.773961] (-) TimerEvent: {}
+[15.074647] (-) TimerEvent: {}
+[15.179834] (-) TimerEvent: {}
+[15.349721] (-) TimerEvent: {}
+[15.478473] (-) TimerEvent: {}
+[15.628675] (-) TimerEvent: {}
+[15.798594] (-) TimerEvent: {}
+[15.926018] (-) TimerEvent: {}
+[16.088425] (-) TimerEvent: {}
+[16.134905] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] Built target beginner_tutorials__py\n'}
+[16.209003] (-) TimerEvent: {}
+[16.336578] (-) TimerEvent: {}
+[16.439435] (-) TimerEvent: {}
+[16.623546] (beginner_tutorials) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o\x1b[0m\n'}
+[16.624034] (-) TimerEvent: {}
+[16.725402] (-) TimerEvent: {}
+[16.826947] (-) TimerEvent: {}
+[16.928364] (-) TimerEvent: {}
+[17.005987] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so\x1b[0m\n'}
+[17.030446] (-) TimerEvent: {}
+[17.165225] (-) TimerEvent: {}
+[17.266908] (-) TimerEvent: {}
+[17.456392] (-) TimerEvent: {}
+[17.675548] (-) TimerEvent: {}
+[17.788589] (-) TimerEvent: {}
+[17.864995] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] Built target beginner_tutorials__rosidl_generator_py\n'}
+[17.897741] (-) TimerEvent: {}
+[18.020650] (-) TimerEvent: {}
+[18.127061] (-) TimerEvent: {}
+[18.270661] (-) TimerEvent: {}
+[18.394915] (-) TimerEvent: {}
+[18.563208] (beginner_tutorials) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.563522] (-) TimerEvent: {}
+[18.580551] (beginner_tutorials) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.634817] (beginner_tutorials) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.664962] (-) TimerEvent: {}
+[18.820037] (-) TimerEvent: {}
+[18.920698] (-) TimerEvent: {}
+[19.187335] (-) TimerEvent: {}
+[19.323846] (-) TimerEvent: {}
+[19.480842] (-) TimerEvent: {}
+[19.536197] (beginner_tutorials) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.536756] (beginner_tutorials) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.591455] (-) TimerEvent: {}
+[19.730620] (-) TimerEvent: {}
+[19.921446] (beginner_tutorials) StdoutLine: {'line': b'[ 89%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.921809] (-) TimerEvent: {}
+[19.922137] (beginner_tutorials) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.022428] (-) TimerEvent: {}
+[20.157367] (-) TimerEvent: {}
+[20.315648] (-) TimerEvent: {}
+[20.567549] (beginner_tutorials) StdoutLine: {'line': b'[ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext\n'}
+[20.567817] (-) TimerEvent: {}
+[20.600482] (beginner_tutorials) StdoutLine: {'line': b'[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[20.714161] (-) TimerEvent: {}
+[20.820374] (-) TimerEvent: {}
+[20.942708] (-) TimerEvent: {}
+[21.055493] (-) TimerEvent: {}
+[21.207049] (-) TimerEvent: {}
+[21.308096] (-) TimerEvent: {}
+[21.411088] (-) TimerEvent: {}
+[21.639017] (-) TimerEvent: {}
+[21.743348] (-) TimerEvent: {}
+[21.874930] (-) TimerEvent: {}
+[22.007149] (-) TimerEvent: {}
+[22.136171] (-) TimerEvent: {}
+[22.290545] (-) TimerEvent: {}
+[22.416729] (-) TimerEvent: {}
+[22.593322] (-) TimerEvent: {}
+[22.844331] (-) TimerEvent: {}
+[23.031282] (-) TimerEvent: {}
+[23.147948] (-) TimerEvent: {}
+[23.262005] (-) TimerEvent: {}
+[23.372802] (-) TimerEvent: {}
+[23.601278] (-) TimerEvent: {}
+[23.760396] (-) TimerEvent: {}
+[23.899795] (-) TimerEvent: {}
+[24.011623] (-) TimerEvent: {}
+[24.280079] (-) TimerEvent: {}
+[24.385049] (-) TimerEvent: {}
+[24.486581] (-) TimerEvent: {}
+[24.596697] (-) TimerEvent: {}
+[24.806182] (-) TimerEvent: {}
+[25.047408] (-) TimerEvent: {}
+[25.249029] (-) TimerEvent: {}
+[25.349675] (-) TimerEvent: {}
+[25.475885] (-) TimerEvent: {}
+[25.578445] (-) TimerEvent: {}
+[25.687447] (-) TimerEvent: {}
+[25.817099] (-) TimerEvent: {}
+[25.923025] (-) TimerEvent: {}
+[26.038190] (-) TimerEvent: {}
+[26.161607] (-) TimerEvent: {}
+[26.267444] (-) TimerEvent: {}
+[26.393081] (-) TimerEvent: {}
+[26.493818] (-) TimerEvent: {}
+[26.619628] (-) TimerEvent: {}
+[26.720637] (-) TimerEvent: {}
+[26.838997] (-) TimerEvent: {}
+[26.966119] (-) TimerEvent: {}
+[27.088562] (-) TimerEvent: {}
+[27.193993] (-) TimerEvent: {}
+[27.300767] (-) TimerEvent: {}
+[27.404584] (-) TimerEvent: {}
+[27.555903] (-) TimerEvent: {}
+[27.659223] (-) TimerEvent: {}
+[27.778788] (-) TimerEvent: {}
+[27.882139] (-) TimerEvent: {}
+[28.002833] (-) TimerEvent: {}
+[28.103524] (-) TimerEvent: {}
+[28.204293] (-) TimerEvent: {}
+[28.305031] (-) TimerEvent: {}
+[28.407070] (-) TimerEvent: {}
+[28.510252] (-) TimerEvent: {}
+[28.611047] (-) TimerEvent: {}
+[28.732642] (-) TimerEvent: {}
+[28.851782] (-) TimerEvent: {}
+[28.974386] (-) TimerEvent: {}
+[29.080732] (-) TimerEvent: {}
+[29.183372] (-) TimerEvent: {}
+[29.297876] (-) TimerEvent: {}
+[29.404006] (-) TimerEvent: {}
+[29.505053] (-) TimerEvent: {}
+[29.606498] (-) TimerEvent: {}
+[29.709503] (-) TimerEvent: {}
+[29.839724] (-) TimerEvent: {}
+[29.949663] (-) TimerEvent: {}
+[30.084970] (-) TimerEvent: {}
+[30.238552] (-) TimerEvent: {}
+[30.346014] (-) TimerEvent: {}
+[30.453909] (-) TimerEvent: {}
+[30.568106] (-) TimerEvent: {}
+[30.672857] (-) TimerEvent: {}
+[30.819223] (-) TimerEvent: {}
+[30.980955] (-) TimerEvent: {}
+[31.081630] (-) TimerEvent: {}
+[31.185009] (-) TimerEvent: {}
+[31.307723] (-) TimerEvent: {}
+[31.428568] (-) TimerEvent: {}
+[31.542926] (-) TimerEvent: {}
+[31.660340] (-) TimerEvent: {}
+[31.761076] (-) TimerEvent: {}
+[31.893604] (-) TimerEvent: {}
+[32.006422] (-) TimerEvent: {}
+[32.108754] (-) TimerEvent: {}
+[32.227998] (-) TimerEvent: {}
+[32.329389] (-) TimerEvent: {}
+[32.432181] (-) TimerEvent: {}
+[32.562222] (-) TimerEvent: {}
+[32.679921] (-) TimerEvent: {}
+[32.784914] (-) TimerEvent: {}
+[32.892152] (-) TimerEvent: {}
+[33.035211] (-) TimerEvent: {}
+[33.148064] (-) TimerEvent: {}
+[33.249763] (-) TimerEvent: {}
+[33.351008] (-) TimerEvent: {}
+[33.483651] (-) TimerEvent: {}
+[33.594520] (-) TimerEvent: {}
+[33.695523] (-) TimerEvent: {}
+[33.798484] (-) TimerEvent: {}
+[33.899707] (-) TimerEvent: {}
+[34.109998] (-) TimerEvent: {}
+[34.225951] (-) TimerEvent: {}
+[34.334077] (-) TimerEvent: {}
+[34.438244] (-) TimerEvent: {}
+[34.539205] (-) TimerEvent: {}
+[34.642448] (-) TimerEvent: {}
+[34.755394] (-) TimerEvent: {}
+[34.859810] (-) TimerEvent: {}
+[34.964413] (-) TimerEvent: {}
+[35.065009] (-) TimerEvent: {}
+[35.166902] (-) TimerEvent: {}
+[35.275301] (-) TimerEvent: {}
+[35.376773] (-) TimerEvent: {}
+[35.491945] (-) TimerEvent: {}
+[35.649424] (-) TimerEvent: {}
+[35.787566] (-) TimerEvent: {}
+[35.899505] (-) TimerEvent: {}
+[36.008993] (-) TimerEvent: {}
+[36.128357] (-) TimerEvent: {}
+[36.232093] (-) TimerEvent: {}
+[36.335534] (-) TimerEvent: {}
+[36.450768] (-) TimerEvent: {}
+[36.555139] (-) TimerEvent: {}
+[36.683856] (-) TimerEvent: {}
+[36.787454] (-) TimerEvent: {}
+[36.903613] (-) TimerEvent: {}
+[37.007389] (-) TimerEvent: {}
+[37.111048] (-) TimerEvent: {}
+[37.215421] (-) TimerEvent: {}
+[37.387218] (-) TimerEvent: {}
+[37.468140] (beginner_tutorials) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[37.537488] (-) TimerEvent: {}
+[37.641287] (-) TimerEvent: {}
+[37.751485] (-) TimerEvent: {}
+[37.861866] (-) TimerEvent: {}
+[38.018745] (-) TimerEvent: {}
+[38.149519] (-) TimerEvent: {}
+[38.242680] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable server_client\x1b[0m\n'}
+[38.254645] (-) TimerEvent: {}
+[38.355258] (-) TimerEvent: {}
+[38.492118] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target talker\n'}
+[38.492543] (-) TimerEvent: {}
+[38.640383] (-) TimerEvent: {}
+[38.741383] (-) TimerEvent: {}
+[38.857452] (-) TimerEvent: {}
+[38.940565] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target server_client\n'}
+[38.961096] (-) TimerEvent: {}
+[39.064937] (-) TimerEvent: {}
+[39.165647] (-) TimerEvent: {}
+[39.266541] (-) TimerEvent: {}
+[39.367371] (-) TimerEvent: {}
+[39.468311] (-) TimerEvent: {}
+[39.586447] (-) TimerEvent: {}
+[39.687454] (-) TimerEvent: {}
+[39.789822] (-) TimerEvent: {}
+[39.890668] (-) TimerEvent: {}
+[39.991292] (-) TimerEvent: {}
+[40.092509] (-) TimerEvent: {}
+[40.193547] (-) TimerEvent: {}
+[40.305414] (-) TimerEvent: {}
+[40.425942] (-) TimerEvent: {}
+[40.529956] (-) TimerEvent: {}
+[40.632684] (-) TimerEvent: {}
+[40.735247] (-) TimerEvent: {}
+[40.835883] (-) TimerEvent: {}
+[40.937025] (-) TimerEvent: {}
+[41.039789] (-) TimerEvent: {}
+[41.142157] (-) TimerEvent: {}
+[41.259761] (-) TimerEvent: {}
+[41.367399] (-) TimerEvent: {}
+[41.475633] (-) TimerEvent: {}
+[41.576809] (-) TimerEvent: {}
+[41.678042] (-) TimerEvent: {}
+[41.780040] (-) TimerEvent: {}
+[41.881006] (-) TimerEvent: {}
+[41.984472] (-) TimerEvent: {}
+[42.087969] (-) TimerEvent: {}
+[42.189624] (-) TimerEvent: {}
+[42.291024] (-) TimerEvent: {}
+[42.406295] (-) TimerEvent: {}
+[42.514716] (-) TimerEvent: {}
+[42.627017] (-) TimerEvent: {}
+[42.693520] (beginner_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[42.727424] (-) TimerEvent: {}
+[42.828683] (-) TimerEvent: {}
+[42.957867] (-) TimerEvent: {}
+[43.061986] (-) TimerEvent: {}
+[43.164569] (-) TimerEvent: {}
+[43.266222] (-) TimerEvent: {}
+[43.367270] (-) TimerEvent: {}
+[43.468464] (-) TimerEvent: {}
+[43.585657] (-) TimerEvent: {}
+[43.686882] (-) TimerEvent: {}
+[43.788430] (-) TimerEvent: {}
+[43.795597] (beginner_tutorials) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[43.839018] (beginner_tutorials) CommandEnded: {'returncode': 0}
+[43.888823] (-) TimerEvent: {}
+[43.989609] (-) TimerEvent: {}
+[44.060204] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'install'}
+[44.088793] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials'], 'cwd': '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1848,unix/sas-virtual-machine:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3a3d308_bf90_4077_8b70_7dfd7571f2aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VX8BE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.324'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/src/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[44.090986] (-) TimerEvent: {}
+[44.109772] (beginner_tutorials) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.110048] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/rosidl_interfaces/beginner_tutorials\n'}
+[44.110144] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.110467] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg\n'}
+[44.110660] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.110753] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.110833] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/change_string.h\n'}
+[44.110915] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.111433] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__functions.h\n'}
+[44.112506] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.h\n'}
+[44.113106] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__functions.c\n'}
+[44.113298] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__struct.h\n'}
+[44.113453] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.sh\n'}
+[44.113607] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.dsv\n'}
+[44.135133] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_c.so\n'}
+[44.135550] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_c.so" to ""\n'}
+[44.138703] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.139238] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg\n'}
+[44.139528] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.139704] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.139896] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.140180] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h\n'}
+[44.140366] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so\n'}
+[44.140580] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[44.140788] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.140943] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.141092] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.141398] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__traits.hpp\n'}
+[44.141603] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__builder.hpp\n'}
+[44.141762] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__struct.hpp\n'}
+[44.142049] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/change_string.hpp\n'}
+[44.144125] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.144402] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg\n'}
+[44.144575] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[44.144731] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.144882] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.145029] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.145179] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/dds_fastrtps\n'}
+[44.145328] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so\n'}
+[44.145556] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[44.145761] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.145912] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg\n'}
+[44.155647] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.155944] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.156121] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.156232] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.c\n'}
+[44.156336] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_introspection_c.h\n'}
+[44.156438] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_c.so\n'}
+[44.156553] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_c.so" to ""\n'}
+[44.156652] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_c.so\n'}
+[44.156942] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_c.so" to ""\n'}
+[44.157210] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials\n'}
+[44.157443] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv\n'}
+[44.157723] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail\n'}
+[44.157921] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__type_support.cpp\n'}
+[44.158085] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.158241] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so\n'}
+[44.158392] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[44.158539] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_cpp.so\n'}
+[44.158717] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_cpp.so" to ""\n'}
+[44.158957] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.sh\n'}
+[44.159115] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.dsv\n'}
+[44.159260] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info\n'}
+[44.159410] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[44.159556] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[44.159703] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[44.159855] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[44.160096] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials\n'}
+[44.165103] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[44.167026] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.167550] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.167754] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[44.167924] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/__init__.py\n'}
+[44.168105] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.168369] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so\n'}
+[44.168571] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c\n'}
+[44.168754] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv\n'}
+[44.168903] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_change_string_s.c\n'}
+[44.169051] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/__init__.py\n'}
+[44.169200] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_change_string.py\n'}
+[44.196259] (-) TimerEvent: {}
+[44.233063] (beginner_tutorials) StdoutLine: {'line': b"Listing '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials'...\n"}
+[44.233704] (beginner_tutorials) StdoutLine: {'line': b"Compiling '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/__init__.py'...\n"}
+[44.234007] (beginner_tutorials) StdoutLine: {'line': b"Listing '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv'...\n"}
+[44.234262] (beginner_tutorials) StdoutLine: {'line': b"Compiling '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/__init__.py'...\n"}
+[44.234509] (beginner_tutorials) StdoutLine: {'line': b"Compiling '/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_change_string.py'...\n"}
+[44.247525] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.248114] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[44.248333] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.248502] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[44.248939] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[44.249253] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[44.249445] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_py.so\n'}
+[44.250080] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_py.so" to ""\n'}
+[44.250361] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString.idl\n'}
+[44.250563] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString.srv\n'}
+[44.251159] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString_Request.msg\n'}
+[44.251564] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/ChangeString_Response.msg\n'}
+[44.251804] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker\n'}
+[44.272322] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker" to ""\n'}
+[44.272793] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/listener\n'}
+[44.343989] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/listener" to ""\n'}
+[44.344305] (-) TimerEvent: {}
+[44.344487] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/server_client\n'}
+[44.344734] (beginner_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/server_client" to ""\n'}
+[44.344860] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/launch\n'}
+[44.345075] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/launch/custom_launch.yaml\n'}
+[44.345926] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/package_run_dependencies/beginner_tutorials\n'}
+[44.346244] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/parent_prefix_path/beginner_tutorials\n'}
+[44.349073] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.sh\n'}
+[44.349395] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.dsv\n'}
+[44.349682] (beginner_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.sh\n'}
+[44.349871] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.dsv\n'}
+[44.350045] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.bash\n'}
+[44.350224] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.sh\n'}
+[44.350395] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.zsh\n'}
+[44.350559] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.dsv\n'}
+[44.350889] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.dsv\n'}
+[44.351110] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/packages/beginner_tutorials\n'}
+[44.351302] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport.cmake\n'}
+[44.351493] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport-noconfig.cmake\n'}
+[44.351668] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[44.351838] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[44.352249] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cppExport.cmake\n'}
+[44.352691] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[44.352893] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[44.353060] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport.cmake\n'}
+[44.353384] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[44.353598] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport.cmake\n'}
+[44.353801] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[44.354215] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[44.354382] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[44.354536] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport.cmake\n'}
+[44.354636] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[44.354754] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport.cmake\n'}
+[44.354849] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport-noconfig.cmake\n'}
+[44.354942] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.355036] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake-extras.cmake\n'}
+[44.355215] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.355314] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[44.355407] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[44.355497] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[44.355588] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[44.355681] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake\n'}
+[44.355773] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake\n'}
+[44.355923] (beginner_tutorials) StdoutLine: {'line': b'-- Installing: /home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.xml\n'}
+[44.356030] (beginner_tutorials) CommandEnded: {'returncode': 0}
+[44.447123] (-) TimerEvent: {}
+[44.573059] (-) TimerEvent: {}
+[44.702133] (-) TimerEvent: {}
+[44.854565] (-) TimerEvent: {}
+[44.957855] (-) TimerEvent: {}
+[45.072563] (-) TimerEvent: {}
+[45.175930] (-) TimerEvent: {}
+[45.281128] (-) TimerEvent: {}
+[45.382316] (-) TimerEvent: {}
+[45.490325] (-) TimerEvent: {}
+[45.491159] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 0}
+[45.494637] (-) EventReactorShutdown: {}

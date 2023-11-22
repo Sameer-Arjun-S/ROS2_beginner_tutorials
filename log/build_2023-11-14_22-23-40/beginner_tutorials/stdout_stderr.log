@@ -1,0 +1,33 @@
+[  8%] Built target beginner_tutorials__rosidl_generator_c
+[ 10%] Built target beginner_tutorials__cpp
+[ 16%] Built target listener
+[ 16%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 24%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 37%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 40%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 56%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 64%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 64%] Built target beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 70%] Built target server_client
+[ 72%] Built target beginner_tutorials__py
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sas/ros2_ws/src/beginner_tutorials/src/publisher.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_resp_message[m[K’ was not declared in this scope
+   38 |     [01;31m[Kserver_resp_message[m[K = response->op;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
