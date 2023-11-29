@@ -1,0 +1,272 @@
+[0.241s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+[1.345s] -- The C compiler identification is GNU 11.4.0
+[1.947s] -- The CXX compiler identification is GNU 11.4.0
+[1.985s] -- Detecting C compiler ABI info
+[2.227s] -- Detecting C compiler ABI info - done
+[2.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.252s] -- Detecting C compile features
+[2.256s] -- Detecting C compile features - done
+[2.281s] -- Detecting CXX compiler ABI info
+[2.834s] -- Detecting CXX compiler ABI info - done
+[2.892s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.892s] -- Detecting CXX compile features
+[2.893s] -- Detecting CXX compile features - done
+[2.928s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.885s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.251s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[4.480s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.504s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.542s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.685s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.965s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.977s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.290s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.364s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.532s] -- Looking for pthread.h
+[5.829s] -- Looking for pthread.h - found
+[5.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.064s] -- Found Threads: TRUE  
+[6.676s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.725s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[6.974s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.104s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[9.124s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.120s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.135s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.316s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.317s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.317s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.317s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.387s] -- Found PythonExtra: .so  
+[11.696s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.813s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.337s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.357s] -- Configuring done
+[12.565s] -- Generating done
+[12.594s] -- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials
+[12.627s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+[12.646s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[12.982s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.983s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.983s] [  7%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.026s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.161s] [  9%] Built target ament_cmake_python_copy_beginner_tutorials
+[14.495s] running egg_info
+[14.495s] creating beginner_tutorials.egg-info
+[14.496s] writing beginner_tutorials.egg-info/PKG-INFO
+[14.496s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[14.496s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[14.496s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[14.660s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[14.661s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[14.848s] [  9%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[15.366s] [  9%] Built target beginner_tutorials__cpp
+[15.398s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.547s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.558s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.797s] [ 19%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/custom_service__functions.c.o[0m
+[16.711s] [ 21%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/custom_service__type_support.cpp.o[0m
+[16.981s] [ 24%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/custom_service__type_support.cpp.o[0m
+[17.136s] [ 26%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/custom_service__type_support.cpp.o[0m
+[17.137s] [ 29%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_generator_c.so[0m
+[17.636s] [ 29%] Built target beginner_tutorials__rosidl_generator_c
+[17.767s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.767s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.855s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.064s] [ 39%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/custom_service__type_support.cpp.o[0m
+[20.229s] [ 41%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/custom_service__type_support.c.o[0m
+[20.795s] [ 43%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so[0m
+[20.852s] [ 46%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/custom_service__type_support_c.cpp.o[0m
+[21.025s] [ 51%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so[0m
+[21.056s] [ 51%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so[0m
+[21.382s] [ 51%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[21.423s] [ 51%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[21.522s] [ 51%] Built target beginner_tutorials__rosidl_typesupport_c
+[21.660s] [ 53%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[21.902s] [ 56%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so[0m
+[22.019s] [ 58%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[22.803s] [ 58%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[23.203s] [ 60%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.960s] [ 63%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so[0m
+[24.627s] [ 63%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[24.772s] [ 63%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[25.041s] [ 65%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[25.176s] [ 65%] Built target beginner_tutorials
+[25.585s] [ 68%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.982s] [ 68%] Built target gtest_main
+[28.529s] [ 68%] Built target beginner_tutorials__py
+[39.302s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[39.572s] [ 70%] Built target gtest
+[52.424s] [ 73%] [32m[1mLinking CXX executable talker[0m
+[53.752s] [ 73%] Built target talker
+[53.840s] [ 75%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/test.cpp.o[0m
+[53.855s] [ 78%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_custom_service_s.c.o[0m
+[56.055s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so[0m
+[56.434s] [ 80%] Built target beginner_tutorials__rosidl_generator_py
+[61.229s] [ 82%] [32m[1mLinking CXX executable listener[0m
+[62.462s] [ 82%] Built target listener
+[62.565s] [ 85%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o[0m
+[62.735s] [ 87%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[63.412s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[63.480s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[63.588s] [ 92%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[63.641s] [ 92%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[63.784s] [ 95%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[64.299s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.560s] [ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[69.774s] [100%] [32m[1mLinking CXX executable beginner_tutorials_test[0m
+[70.483s] [100%] Built target beginner_tutorials_test
+[70.523s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[70.782s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials
+[70.802s] -- Install configuration: ""
+[70.803s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/rosidl_interfaces/beginner_tutorials
+[70.814s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.815s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[70.815s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_generator_c__visibility_control.h
+[70.815s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.815s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.815s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__functions.h
+[70.816s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__struct.h
+[70.816s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__functions.c
+[70.816s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__type_support.h
+[70.816s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/custom_service.h
+[70.816s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.sh
+[70.817s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/library_path.dsv
+[70.821s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_c.so
+[70.822s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_c.so" to ""
+[70.822s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.822s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[70.823s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[70.823s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.823s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.823s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__rosidl_typesupport_fastrtps_c.h
+[70.835s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so
+[70.835s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so" to ""
+[70.835s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.835s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.835s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/custom_service.hpp
+[70.836s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.836s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__builder.hpp
+[70.836s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__traits.hpp
+[70.836s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__struct.hpp
+[70.836s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.836s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[70.837s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[70.837s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.837s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.837s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__rosidl_typesupport_fastrtps_cpp.hpp
+[70.837s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/dds_fastrtps
+[70.840s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[70.841s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so" to ""
+[70.841s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.841s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg
+[70.841s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[70.841s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.842s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.842s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__type_support.c
+[70.842s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__rosidl_typesupport_introspection_c.h
+[70.862s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_c.so
+[70.867s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_c.so" to ""
+[70.867s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_c.so
+[70.869s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_c.so" to ""
+[70.869s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials
+[70.871s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv
+[70.871s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail
+[70.871s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__rosidl_typesupport_introspection_cpp.hpp
+[70.871s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/include/beginner_tutorials/beginner_tutorials/srv/detail/custom_service__type_support.cpp
+[70.902s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so
+[70.902s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so" to ""
+[70.906s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_cpp.so
+[70.963s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_typesupport_cpp.so" to ""
+[70.963s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.sh
+[70.963s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/pythonpath.dsv
+[70.963s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info
+[70.964s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt
+[70.964s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/top_level.txt
+[70.964s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt
+[70.964s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials-0.0.0-py3.10.egg-info/PKG-INFO
+[70.965s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials
+[70.965s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+[70.965s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[70.965s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[70.966s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c
+[70.966s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/__init__.py
+[70.966s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[70.966s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so
+[70.967s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c
+[70.967s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv
+[70.967s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/__init__.py
+[70.967s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_custom_service.py
+[70.968s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_custom_service_s.c
+[71.132s] Listing '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials'...
+[71.132s] Compiling '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/__init__.py'...
+[71.132s] Listing '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv'...
+[71.134s] Compiling '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/__init__.py'...
+[71.134s] Compiling '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/srv/_custom_service.py'...
+[71.143s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[71.144s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.145s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[71.145s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.146s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[71.147s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/local/lib/python3.10/dist-packages/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.149s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_py.so
+[71.151s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/libbeginner_tutorials__rosidl_generator_py.so" to ""
+[71.151s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/CustomService.idl
+[71.151s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/CustomService.srv
+[71.152s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/CustomService_Request.msg
+[71.152s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/srv/CustomService_Response.msg
+[71.159s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker
+[71.160s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/talker" to ""
+[71.169s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/listener
+[71.182s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/listener" to ""
+[71.182s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials//launch
+[71.182s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials//launch/custom_launch.yaml
+[71.182s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials//launch/launch.py
+[71.183s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials//launch/bag_recorder.launch.py
+[71.189s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/beginner_tutorials_test
+[71.199s] -- Set runtime path of "/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/beginner_tutorials/beginner_tutorials_test" to ""
+[71.199s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/package_run_dependencies/beginner_tutorials
+[71.201s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/parent_prefix_path/beginner_tutorials
+[71.201s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.sh
+[71.201s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/ament_prefix_path.dsv
+[71.201s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.sh
+[71.202s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/environment/path.dsv
+[71.202s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.bash
+[71.203s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.sh
+[71.204s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.zsh
+[71.204s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/local_setup.dsv
+[71.204s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.dsv
+[71.208s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/ament_index/resource_index/packages/beginner_tutorials
+[71.212s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport.cmake
+[71.212s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cExport-noconfig.cmake
+[71.214s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport.cmake
+[71.214s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[71.235s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_cppExport.cmake
+[71.265s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake
+[71.265s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[71.265s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[71.265s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[71.267s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport.cmake
+[71.267s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[71.267s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[71.268s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[71.268s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport.cmake
+[71.268s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[71.268s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport.cmake
+[71.268s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/export_beginner_tutorials__rosidl_generator_pyExport-noconfig.cmake
+[71.269s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake-extras.cmake
+[71.269s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.289s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[71.289s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[71.289s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[71.290s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.290s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[71.305s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+[71.306s] -- Installing: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+[71.306s] -- Up-to-date: /home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.xml
+[71.345s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials

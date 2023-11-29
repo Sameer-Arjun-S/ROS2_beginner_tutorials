@@ -30,7 +30,7 @@ ament_target_dependencies(talker
 
 )
 set(srv_files
-  "srv/CustomService.srv"
+  "srv/NewService.srv"
   )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}

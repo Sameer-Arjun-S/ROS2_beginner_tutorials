@@ -15,14 +15,13 @@
 using std::placeholders::_1;
 
 /**
- * @brief The class subscriber captures the message whenever published
- * to topic
+ * @brief This class subscribes to the published message
  *
  */
 class Subscriber : public rclcpp::Node {
  public:
   /**
-   * @brief Construct a Subscriber object
+   * @brief Constructing the subscriber object
    *
    */
   Subscriber() : Node("subscriber") {
@@ -32,12 +31,12 @@ class Subscriber : public rclcpp::Node {
 
  private:
   /**
-   * @brief A callback method to capture the message whenever published
+   * @brief This is a callback method to capture messages
    *
    * @param msg
    */
   void topic_callback(const std_msgs::msg::String& msg) const {
-    RCLCPP_INFO_STREAM(this->get_logger(), "ROS2 Humble Heard: " << msg.data);
+    RCLCPP_INFO_STREAM(this->get_logger(), "The published message is : " << msg.data);
   }
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };

@@ -9,8 +9,7 @@
 
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_ros/static_transform_broadcaster.h>
-
-#include <beginner_tutorials/srv/custom_service.hpp>
+#include <beginner_tutorials/srv/new_service.hpp>
 #include <chrono>
 #include <functional>
 #include <geometry_msgs/msg/transform_stamped.hpp>
@@ -24,40 +23,34 @@
 using namespace std::chrono_literals;
 
 /**
- * @brief The class minimal publisher creates a publisher object
- * with bind method to publish frequently. It also creates a service call object
- * to get the service request and response
+ * @brief The class creates a publisher object with bind method 
+ * 
  */
 class Publisher : public rclcpp::Node {
  public:
   Publisher() : Node("publisher"), count_(0) {
-    // set the logger level to DEBUG
-    // this->get_logger().set_level(rclcpp::Logger::Level::Debug);
-    // RCLCPP_DEBUG_STREAM(this->get_logger(),"Getting frequency parameter
-    // value");
-
-    // Parameter for initializig publisher frequency
+    // Parameter for publisher frequency
     auto pub_frequency_info = rcl_interfaces::msg::ParameterDescriptor();
-    pub_frequency_info.description = "Custom frequency value for the publisher";
+    pub_frequency_info.description = "Custom frequency for publisher";
 
-    // default frequency is 1.0
+    // Initializing default frequency
     this->declare_parameter("frequency", 1.0, pub_frequency_info);
     auto pub_frequency = this->get_parameter("frequency")
                              .get_parameter_value()
                              .get<std::float_t>();
     if (pub_frequency < 0.0) {
       RCLCPP_FATAL_STREAM_ONCE(rclcpp::get_logger("publisher"),
-                               "Frequency Cannot be negative");
+                               "Frequency is negative");
       exit(1);
     } else if (pub_frequency == 0.0) {
       RCLCPP_ERROR_STREAM(rclcpp::get_logger("publisher"),
-                          "Frequency set to zero");
+                          "Frequency is zero");
     } else if (pub_frequency > 100.0) {
       RCLCPP_WARN_STREAM_ONCE(rclcpp::get_logger("publisher"),
-                              "Frequency greater than hundread");
+                              "Frequency more than 100");
     } else {
       RCLCPP_DEBUG_STREAM(rclcpp::get_logger("publisher"),
-                          "Frequency parameter is " << pub_frequency << " Hz");
+                          "Frequency is " << pub_frequency << " Hz");
 
       RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
                          "Publishing at " << pub_frequency << " Hz");
@@ -68,41 +61,40 @@ class Publisher : public rclcpp::Node {
         std::chrono::milliseconds(static_cast<int>(1000 / pub_frequency));
     timer_ = this->create_wall_timer(
         time, std::bind(&Publisher::timer_callback, this));
-    // Creating a service object to get request and response
+    // Creation of service object
     auto serviceCallbackPtr =
         std::bind(&Publisher::change_message, this,
                   std::placeholders::_1, std::placeholders::_2);
 
-    service_ = create_service<beginner_tutorials::srv::CustomService>(
-        "custom_service", serviceCallbackPtr);
+    service_ = create_service<beginner_tutorials::srv::NewService>(
+        "new_service", serviceCallbackPtr);
   }
 
  private:
   /**
-   * @brief This is used to publish the messages
+   * @brief This is for publishlishing
    *
    */
   void timer_callback() {
     auto message = std_msgs::msg::String();
-    message.data = "Hello ROS2 Humble! " + std::to_string(count_++);
+    message.data = "Hey there, this is ROS2! " + std::to_string(count_++);
     RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
                        "Publishing: " << message.data);
     publisher_->publish(message);
     broadcast_transform();
   }
   /**
-   * @brief This is used to change the message of service call object
-   *
-   * @param request , This parameter sets the service call request
-   * @param response , This sets the service call response
+   * @brief This is used to change the message 
+   * @param request , Parameter for service call request
+   * @param response , Parameter for service call response
    */
   void change_message(
-      const std::shared_ptr<beginner_tutorials::srv::CustomService::Request>
+      const std::shared_ptr<beginner_tutorials::srv::NewService::Request>
           request,
-      std::shared_ptr<beginner_tutorials::srv::CustomService::Response>
+      std::shared_ptr<beginner_tutorials::srv::NewService::Response>
           response) {
     response->response_message =
-        request->request_message + "Hi, This is modified service!!";
+        request->request_message + "Hey there, the service is modified";
     RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
                        "Request message: " << request->request_message);
     RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
@@ -115,7 +107,7 @@ class Publisher : public rclcpp::Node {
     t.header.stamp = this->get_clock()->now();
     t.header.frame_id = "world";
     t.child_frame_id = "talk";
-    // Translation component in meters
+    // Translation component initialization in meters
     t.transform.translation.x = 0.2;
     t.transform.translation.y = 0.0;
     t.transform.translation.z = 0.6;
@@ -127,7 +119,7 @@ class Publisher : public rclcpp::Node {
   }
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-  rclcpp::Service<beginner_tutorials::srv::CustomService>::SharedPtr service_;
+  rclcpp::Service<beginner_tutorials::srv::NewService>::SharedPtr service_;
   size_t count_;
   std::shared_ptr<tf2_ros::StaticTransformBroadcaster> tf_static_broadcaster_;
 };

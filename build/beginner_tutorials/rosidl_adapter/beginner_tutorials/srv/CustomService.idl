@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from beginner_tutorials/srv/CustomService.srv
+// generated code does not contain a copyright notice
+
+
+module beginner_tutorials {
+  module srv {
+    struct CustomService_Request {
+      string request_message;
+    };
+    struct CustomService_Response {
+      string response_message;
+    };
+  };
+};
