@@ -15,8 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/srv/__init__.py" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/srv/_new_service.py" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/srv/_change_string.py" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c" "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

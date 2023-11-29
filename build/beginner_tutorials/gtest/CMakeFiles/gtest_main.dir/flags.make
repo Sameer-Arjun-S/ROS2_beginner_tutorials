@@ -6,5 +6,5 @@ CXX_DEFINES = -DROS_PACKAGE_NAME=\"beginner_tutorials\"
 
 CXX_INCLUDES = -I/opt/ros/humble/src/gtest_vendor/include -I/opt/ros/humble/src/gtest_vendor/.
 
-CXX_FLAGS = -Wall -Wextra -Wpedantic
+CXX_FLAGS = -Wall -Wextra -Wpedantic -std=gnu++14
 

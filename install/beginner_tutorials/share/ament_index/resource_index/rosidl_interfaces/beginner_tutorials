@@ -1,4 +1,4 @@
-srv/NewService.idl
-srv/NewService.srv
-srv/NewService_Request.msg
-srv/NewService_Response.msg
+srv/ChangeString.idl
+srv/ChangeString.srv
+srv/ChangeString_Request.msg
+srv/ChangeString_Response.msg

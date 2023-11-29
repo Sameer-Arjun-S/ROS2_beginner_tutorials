@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c.o"
-  "CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c.o.d"
+  "CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o"
+  "CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o.d"
   "rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.pdb"
   "rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so"
 )

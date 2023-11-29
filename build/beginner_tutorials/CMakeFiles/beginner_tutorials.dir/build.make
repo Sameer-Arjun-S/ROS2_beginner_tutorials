@@ -66,9 +66,9 @@ include CMakeFiles/beginner_tutorials.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/beginner_tutorials.dir/progress.make
 
-CMakeFiles/beginner_tutorials: ../../srv/NewService.srv
-CMakeFiles/beginner_tutorials: rosidl_cmake/srv/NewService_Request.msg
-CMakeFiles/beginner_tutorials: rosidl_cmake/srv/NewService_Response.msg
+CMakeFiles/beginner_tutorials: ../../srv/ChangeString.srv
+CMakeFiles/beginner_tutorials: rosidl_cmake/srv/ChangeString_Request.msg
+CMakeFiles/beginner_tutorials: rosidl_cmake/srv/ChangeString_Response.msg
 
 beginner_tutorials: CMakeFiles/beginner_tutorials
 beginner_tutorials: CMakeFiles/beginner_tutorials.dir/build.make

@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/new_service__functions.c.o"
-  "CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/new_service__functions.c.o.d"
+  "CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c.o"
+  "CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c.o.d"
   "libbeginner_tutorials__rosidl_generator_c.pdb"
   "libbeginner_tutorials__rosidl_generator_c.so"
-  "rosidl_generator_c/beginner_tutorials/srv/detail/new_service__functions.c"
-  "rosidl_generator_c/beginner_tutorials/srv/detail/new_service__functions.h"
-  "rosidl_generator_c/beginner_tutorials/srv/detail/new_service__struct.h"
-  "rosidl_generator_c/beginner_tutorials/srv/detail/new_service__type_support.h"
-  "rosidl_generator_c/beginner_tutorials/srv/new_service.h"
+  "rosidl_generator_c/beginner_tutorials/srv/change_string.h"
+  "rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c"
+  "rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.h"
+  "rosidl_generator_c/beginner_tutorials/srv/detail/change_string__struct.h"
+  "rosidl_generator_c/beginner_tutorials/srv/detail/change_string__type_support.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,32 @@
+[  2%] Built target beginner_tutorials__cpp
+[  4%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 11%] Built target beginner_tutorials__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 16%] Built target gtest_main
+[ 23%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 27%] Built target gtest
+[ 34%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 55%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 58%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/test.cpp.o[0m
+[ 65%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 65%] Built target beginner_tutorials
+[ 67%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 69%] Built target beginner_tutorials__py
+[ 74%] Built target server_client
+[ 79%] Built target beginner_tutorials__rosidl_generator_py
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[ 83%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 88%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 93%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 95%] [32m[1mLinking CXX executable beginner_tutorials_test[0m
+[ 95%] Built target beginner_tutorials_test
+[ 97%] [32m[1mLinking CXX executable listener[0m
+[ 97%] Built target listener

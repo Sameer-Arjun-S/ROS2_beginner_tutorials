@@ -292,7 +292,7 @@ _gtest_header_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/include/gtest/gtest
 _gtest_src_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/src/gtest.cc
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h

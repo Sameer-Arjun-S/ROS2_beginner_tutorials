@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from beginner_tutorials/srv/ChangeString.srv
+// generated code does not contain a copyright notice
+
+
+module beginner_tutorials {
+  module srv {
+    struct ChangeString_Request {
+      string ip;
+    };
+    struct ChangeString_Response {
+      string op;
+    };
+  };
+};

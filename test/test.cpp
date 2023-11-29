@@ -10,14 +10,12 @@
 
 #include <gtest/gtest.h>
 #include <stdlib.h>
-
 #include <rclcpp/executor.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
 
 /**
- * @brief Creaton of the shared node for test
- *
+ * @brief This creates a shared node for testing the code
  */
 class TestNode : public testing::Test {
  protected:
@@ -25,10 +23,12 @@ class TestNode : public testing::Test {
 };
 
 /**
- * @brief Construct a new test f object, which will test the publishers count
+ * @brief Construct a new test object, which will test the publishers count.
  *
+ * This test checks for the number of publishers for a specific topic
  */
 TEST_F(TestNode, test_for_publishers_count) {
+  // Creation of testing node
   node_ = std::make_shared<rclcpp::Node>("test_publisher_count");
   auto test_publisher =
       node_->create_publisher<std_msgs::msg::String>("chatter", 1.0);
@@ -36,6 +36,11 @@ TEST_F(TestNode, test_for_publishers_count) {
   EXPECT_EQ(1, static_cast<int>(publishers_number));
 }
 
+/**
+ * @brief Main function for running tests
+ *
+ * This function initializes ROS 2 and runs Google Test
+ */
 int main(int argc, char** argv) {
   rclcpp::init(argc, argv);
   ::testing::InitGoogleTest(&argc, argv);

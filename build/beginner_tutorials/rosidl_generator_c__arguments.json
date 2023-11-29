@@ -3,7 +3,7 @@
   "output_dir": "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c/beginner_tutorials",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials:srv/NewService.idl"
+    "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials:srv/ChangeString.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials/srv/NewService.idl"
+    "/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials/srv/ChangeString.idl"
   ]
 }

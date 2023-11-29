@@ -1,6 +1,6 @@
 {
   "package_name": "beginner_tutorials",
   "non_idl_tuples": [
-    "/home/sas/ros2_ws/beginner_tutorials:srv/NewService.srv"
+    "/home/sas/ros2_ws/beginner_tutorials:srv/ChangeString.srv"
   ]
 }

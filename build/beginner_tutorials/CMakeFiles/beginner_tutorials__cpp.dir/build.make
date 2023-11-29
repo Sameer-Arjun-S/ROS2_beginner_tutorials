@@ -66,44 +66,44 @@ include CMakeFiles/beginner_tutorials__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/beginner_tutorials__cpp.dir/progress.make
 
-CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp
-CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__builder.hpp
-CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__struct.hpp
-CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__traits.hpp
+CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp
+CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__builder.hpp
+CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__struct.hpp
+CMakeFiles/beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__traits.hpp
 
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp: rosidl_adapter/beginner_tutorials/srv/NewService.idl
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp: rosidl_adapter/beginner_tutorials/srv/ChangeString.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__builder.hpp: rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__builder.hpp
+rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__builder.hpp: rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__builder.hpp
 
-rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__struct.hpp: rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__struct.hpp
+rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__struct.hpp: rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__struct.hpp
 
-rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__traits.hpp: rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__traits.hpp
+rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__traits.hpp: rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__traits.hpp
 
 beginner_tutorials__cpp: CMakeFiles/beginner_tutorials__cpp
-beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__builder.hpp
-beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__struct.hpp
-beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/new_service__traits.hpp
-beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/new_service.hpp
+beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/change_string.hpp
+beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__builder.hpp
+beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__struct.hpp
+beginner_tutorials__cpp: rosidl_generator_cpp/beginner_tutorials/srv/detail/change_string__traits.hpp
 beginner_tutorials__cpp: CMakeFiles/beginner_tutorials__cpp.dir/build.make
 .PHONY : beginner_tutorials__cpp
 

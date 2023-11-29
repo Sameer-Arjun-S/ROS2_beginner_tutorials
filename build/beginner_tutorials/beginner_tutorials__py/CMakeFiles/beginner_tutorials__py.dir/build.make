@@ -69,9 +69,9 @@ include beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/progress.ma
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c
-beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_new_service.py
+beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_change_string.py
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/__init__.py
-beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c
+beginner_tutorials__py/CMakeFiles/beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c
 
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -86,7 +86,7 @@ rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesuppo
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/beginner_tutorials/srv/NewService.idl
+rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/beginner_tutorials/srv/ChangeString.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -96,22 +96,22 @@ rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesuppo
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/beginner_tutorials/srv/_new_service.py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/srv/_new_service.py
+rosidl_generator_py/beginner_tutorials/srv/_change_string.py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/srv/_change_string.py
 
 rosidl_generator_py/beginner_tutorials/srv/__init__.py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/srv/__init__.py
 
-rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c
+rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c
 
 beginner_tutorials__py: beginner_tutorials__py/CMakeFiles/beginner_tutorials__py
 beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c
 beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
 beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c
 beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/__init__.py
-beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_new_service.py
-beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_new_service_s.c
+beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_change_string.py
+beginner_tutorials__py: rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c
 beginner_tutorials__py: beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/build.make
 .PHONY : beginner_tutorials__py
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/new_service__type_support_c.cpp.o"
-  "CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/new_service__type_support_c.cpp.o.d"
+  "CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o"
+  "CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o.d"
   "libbeginner_tutorials__rosidl_typesupport_fastrtps_c.pdb"
   "libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so"
-  "rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/new_service__rosidl_typesupport_fastrtps_c.h"
-  "rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/new_service__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
