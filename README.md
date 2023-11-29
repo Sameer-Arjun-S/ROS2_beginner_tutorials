@@ -23,12 +23,34 @@ colcon build --packages-select beginner_tutorials
 # Run the publisher
 ros2 run beginner_tutorials talker
 # Run the subscriber
-ros2 run beginner_tutorials listener 
+ros2 run beginner_tutorials listener
+# Running both publisher and subscriber at the same time
+ros2 launch beginner_tutorials custom_launch.yaml frequency:=1
 ```
 
 ### Running service client
 ```
 ros2 run beginner_tutorials server_client <new_string_to_publish>
+```
+### ROS2 Bags
+```
+# Make a new directory for ROS bags in package
+mkdir bags
+
+# Run the bag
+ros2 bag record chatter
+
+# Review the recording
+ros2 bag info recording_bag_name
+```
+
+### tf2 Frames
+```
+# Run the talker frame
+ros2 run beginner_tutorials talker man 0 1 0 0 0 0
+
+# Echo the frame 
+ros2 run tf2_ros tf2_echo world man
 ```
 
 ### CppCheck
@@ -48,7 +70,6 @@ sudo apt install cpplint
 # run in the top-level project directory (eg., in cpp-boilerplate-v2/)
 cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
 ```
-
 
 ### Results
 ```
@@ -80,6 +101,34 @@ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./buil
 [INFO] [1699397211.103319098] [Subscriber]: Hey, I heard: 'Hey there, ROS2 here! 10'
 [INFO] [1699397211.603818082] [Subscriber]: Hey, I heard: 'Hey there, ROS2 here! 11'
 
+# ROS Bag results
+sas@sas-virtual-machine:~/ros2_ws/beginner_tutorials/rosbag2_2023_11_29-16_07_00$ ros2 bag info rosbag2_2023_11_29-16_07_00_0.db3 
+
+closing.
+
+closing.
+[INFO] [1701292098.071024651] [rosbag2_storage]: Opened database 'rosbag2_2023_11_29-16_07_00_0.db3' for READ_ONLY.
+
+Files:             rosbag2_2023_11_29-16_07_00_0.db3
+Bag size:          24.0 KiB
+Storage id:        sqlite3
+Duration:          22.14s
+Start:             Nov 29 2023 16:07:02.67 (1701292022.67)
+End:               Nov 29 2023 16:07:24.82 (1701292044.82)
+Messages:          45
+Topic information: Topic: /chatter | Type: std_msgs/msg/String | Count: 45 | Serialization Format: cdr
+
+# tf2_Results
+At time 0.0
+- Translation: [0.000, 1.000, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.000, 1.000]
+- Rotation: in RPY (radian) [0.000, -0.000, 0.000]
+- Rotation: in RPY (degree) [0.000, -0.000, 0.000]
+- Matrix:
+  1.000  0.000  0.000  0.000
+  0.000  1.000  0.000  1.000
+  0.000  0.000  1.000  0.000
+  0.000  0.000  0.000  1.000
 ```
 ### Results from rqt_console
 ![service_client](https://github.com/Sameer-Arjun-S/ROS2_beginner_tutorials/assets/112655999/bd503082-ef95-45cf-b41d-9a17cae380a8)
