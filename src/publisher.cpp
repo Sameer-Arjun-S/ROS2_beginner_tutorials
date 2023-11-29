@@ -101,7 +101,7 @@ class Publisher : public rclcpp::Node {
   void timer_callback() {
     auto message = std_msgs::msg::String();
     message.data = server_resp_message;
-    RCLCPP_DEBUG_STREAM(this->get_logger(), "Inserted message data");
+    RCLCPP_DEBUG_STREAM(this->get_logger(), "Inserted new message data");
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
   }
@@ -167,16 +167,8 @@ int main(int argc, char* argv[]) {
                 argc);
     return 1;
   }
-  // if (strcmp(argv[1], "world") == 0) {
-  //   RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-  //               "Your static turtle name cannot be world");
-  //   return 1;
-  //}
-
-  // Copy command line arguments into a vector
   std::vector<std::string> transformations(argv + 1, argv + argc);
   rclcpp::init(argc, argv);
-  // Creating an instance of Publisher class
   auto node = std::make_shared<Publisher>(transformations);
   rclcpp::spin(node);
   rclcpp::shutdown();
