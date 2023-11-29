@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000496] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.001149] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.084993] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.086122] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'build'}
+[0.088341] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2108'), ('SYSTEMD_EXEC_PID', '2285'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6430'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('JOURNAL_STREAM', '8:42258'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/2249,unix/sas-virtual-machine:/tmp/.ICE-unix/2249'), ('INVOCATION_ID', '721bc14b0e8b425ea6f0a5081828ed68'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5SF5E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f3523e2-3125-40b1-a449-25cfe35c2050'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097863] (-) TimerEvent: {}
+[0.138260] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198918] (-) TimerEvent: {}
+[0.300222] (-) TimerEvent: {}
+[0.400997] (-) TimerEvent: {}
+[0.421332] (beginner_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.474173] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.478999] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.491007] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.501659] (-) TimerEvent: {}
+[0.512111] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.543307] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.602813] (-) TimerEvent: {}
+[0.661365] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.664327] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.703990] (-) TimerEvent: {}
+[0.805360] (-) TimerEvent: {}
+[0.896536] (beginner_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.907863] (-) TimerEvent: {}
+[1.009058] (-) TimerEvent: {}
+[1.110075] (-) TimerEvent: {}
+[1.211710] (-) TimerEvent: {}
+[1.216012] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.228880] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.312651] (-) TimerEvent: {}
+[1.345418] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.413817] (-) TimerEvent: {}
+[1.515610] (-) TimerEvent: {}
+[1.616493] (-) TimerEvent: {}
+[1.718135] (-) TimerEvent: {}
+[1.819745] (-) TimerEvent: {}
+[1.920517] (-) TimerEvent: {}
+[2.012026] (beginner_tutorials) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.020694] (-) TimerEvent: {}
+[2.122076] (-) TimerEvent: {}
+[2.222762] (-) TimerEvent: {}
+[2.323945] (-) TimerEvent: {}
+[2.425875] (-) TimerEvent: {}
+[2.526831] (-) TimerEvent: {}
+[2.608624] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.626968] (-) TimerEvent: {}
+[2.727637] (-) TimerEvent: {}
+[2.828396] (-) TimerEvent: {}
+[2.929253] (-) TimerEvent: {}
+[3.030686] (-) TimerEvent: {}
+[3.132199] (-) TimerEvent: {}
+[3.221626] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.233423] (-) TimerEvent: {}
+[3.334339] (-) TimerEvent: {}
+[3.435678] (-) TimerEvent: {}
+[3.457293] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.507747] (beginner_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.536231] (-) TimerEvent: {}
+[3.564131] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.564693] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.564932] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.587975] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.592333] (beginner_tutorials) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.624922] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.627847] (beginner_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.636525] (-) TimerEvent: {}
+[3.721172] (beginner_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[3.731221] (beginner_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials\n'}
+[3.737546] (-) TimerEvent: {}
+[3.801911] (beginner_tutorials) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.813050] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[3.822467] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[3.837891] (-) TimerEvent: {}
+[3.843326] (beginner_tutorials) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.847017] (beginner_tutorials) StdoutLine: {'line': b'[  9%] Built target gtest_main\n'}
+[3.848317] (beginner_tutorials) StdoutLine: {'line': b'[ 14%] Built target gtest\n'}
+[3.946249] (beginner_tutorials) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_beginner_tutorials\n'}
+[3.951083] (-) TimerEvent: {}
+[3.961839] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials_test\x1b[0m\n'}
+[4.051700] (-) TimerEvent: {}
+[4.065526] (beginner_tutorials) StdoutLine: {'line': b'[ 19%] Built target beginner_tutorials_test\n'}
+[4.158051] (-) TimerEvent: {}
+[4.259082] (-) TimerEvent: {}
+[4.363636] (-) TimerEvent: {}
+[4.469724] (-) TimerEvent: {}
+[4.575067] (-) TimerEvent: {}
+[4.677223] (-) TimerEvent: {}
+[4.778597] (-) TimerEvent: {}
+[4.798907] (beginner_tutorials) StdoutLine: {'line': b'[ 19%] Built target beginner_tutorials__cpp\n'}
+[4.887110] (-) TimerEvent: {}
+[4.910967] (beginner_tutorials) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.936816] (beginner_tutorials) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.947876] (beginner_tutorials) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.988413] (-) TimerEvent: {}
+[5.010958] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[5.011148] (beginner_tutorials) StdoutLine: {'line': b'writing beginner_tutorials.egg-info/PKG-INFO\n'}
+[5.011199] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt\n'}
+[5.011235] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to beginner_tutorials.egg-info/top_level.txt\n'}
+[5.020812] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[5.023698] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[5.088896] (-) TimerEvent: {}
+[5.189850] (-) TimerEvent: {}
+[5.227074] (beginner_tutorials) StdoutLine: {'line': b'[ 26%] Built target ament_cmake_python_build_beginner_tutorials_egg\n'}
+[5.238011] (beginner_tutorials) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/custom_service__functions.c.o\x1b[0m\n'}
+[5.290406] (-) TimerEvent: {}
+[5.392780] (-) TimerEvent: {}
+[5.503728] (beginner_tutorials) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C shared library libbeginner_tutorials__rosidl_generator_c.so\x1b[0m\n'}
+[5.504646] (-) TimerEvent: {}
+[5.606992] (-) TimerEvent: {}
+[5.713426] (-) TimerEvent: {}
+[5.731803] (beginner_tutorials) StdoutLine: {'line': b'[ 31%] Built target beginner_tutorials__rosidl_generator_c\n'}
+[5.814172] (-) TimerEvent: {}
+[5.867736] (beginner_tutorials) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.875728] (beginner_tutorials) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.921697] (-) TimerEvent: {}
+[5.964554] (beginner_tutorials) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.012636] (beginner_tutorials) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/custom_service__type_support.cpp.o\x1b[0m\n'}
+[6.121028] (-) TimerEvent: {}
+[6.222682] (-) TimerEvent: {}
+[6.324237] (-) TimerEvent: {}
+[6.444807] (beginner_tutorials) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/custom_service__type_support.cpp.o\x1b[0m\n'}
+[6.444968] (-) TimerEvent: {}
+[6.472098] (beginner_tutorials) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/custom_service__type_support.cpp.o\x1b[0m\n'}
+[6.546384] (-) TimerEvent: {}
+[6.649513] (-) TimerEvent: {}
+[6.805673] (-) TimerEvent: {}
+[6.908946] (-) TimerEvent: {}
+[6.952257] (beginner_tutorials) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/custom_service__type_support.c.o\x1b[0m\n'}
+[7.068476] (-) TimerEvent: {}
+[7.133845] (beginner_tutorials) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.168727] (-) TimerEvent: {}
+[7.171386] (beginner_tutorials) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/custom_service__type_support_c.cpp.o\x1b[0m\n'}
+[7.208293] (beginner_tutorials) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/custom_service__type_support.cpp.o\x1b[0m\n'}
+[7.279189] (-) TimerEvent: {}
+[7.370398] (beginner_tutorials) StdoutLine: {'line': b'[ 56%] Built target beginner_tutorials__rosidl_typesupport_introspection_c\n'}
+[7.381177] (-) TimerEvent: {}
+[7.408669] (beginner_tutorials) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.442917] (beginner_tutorials) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.507710] (-) TimerEvent: {}
+[7.608744] (-) TimerEvent: {}
+[7.633856] (beginner_tutorials) StdoutLine: {'line': b'[ 60%] Built target beginner_tutorials__rosidl_typesupport_cpp\n'}
+[7.658396] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[7.745171] (-) TimerEvent: {}
+[7.752980] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[7.813369] (beginner_tutorials) StdoutLine: {'line': b'[ 60%] Built target beginner_tutorials__rosidl_typesupport_c\n'}
+[7.823127] (beginner_tutorials) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.845770] (-) TimerEvent: {}
+[7.851731] (beginner_tutorials) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[7.887174] (beginner_tutorials) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.996382] (-) TimerEvent: {}
+[8.097173] (-) TimerEvent: {}
+[8.237320] (-) TimerEvent: {}
+[8.310612] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.337876] (-) TimerEvent: {}
+[8.375970] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[8.474440] (-) TimerEvent: {}
+[8.570975] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[8.575152] (-) TimerEvent: {}
+[8.676377] (-) TimerEvent: {}
+[8.699979] (beginner_tutorials) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.776654] (-) TimerEvent: {}
+[8.833510] (beginner_tutorials) StdoutLine: {'line': b'[ 73%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[8.868835] (beginner_tutorials) StdoutLine: {'line': b'[ 73%] Built target beginner_tutorials\n'}
+[8.876833] (-) TimerEvent: {}
+[8.877959] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[8.906076] (beginner_tutorials) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.977033] (-) TimerEvent: {}
+[9.078176] (-) TimerEvent: {}
+[9.178773] (-) TimerEvent: {}
+[9.279435] (-) TimerEvent: {}
+[9.381013] (-) TimerEvent: {}
+[9.481747] (-) TimerEvent: {}
+[9.541910] (beginner_tutorials) StdoutLine: {'line': b'[ 78%] Built target beginner_tutorials__py\n'}
+[9.578989] (beginner_tutorials) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_custom_service_s.c.o\x1b[0m\n'}
+[9.582502] (-) TimerEvent: {}
+[9.683784] (-) TimerEvent: {}
+[9.785059] (-) TimerEvent: {}
+[9.885810] (-) TimerEvent: {}
+[9.896309] (beginner_tutorials) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so\x1b[0m\n'}
+[9.976797] (beginner_tutorials) StdoutLine: {'line': b'[ 82%] Built target beginner_tutorials__rosidl_generator_py\n'}
+[9.986969] (-) TimerEvent: {}
+[9.996393] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.996679] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.012256] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.033329] (beginner_tutorials) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.124563] (beginner_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.125018] (-) TimerEvent: {}
+[10.125206] (beginner_tutorials) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.225381] (-) TimerEvent: {}
+[10.363865] (-) TimerEvent: {}
+[10.432289] (beginner_tutorials) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.464087] (-) TimerEvent: {}
+[10.503284] (beginner_tutorials) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.503701] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.585199] (-) TimerEvent: {}
+[10.668867] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.686883] (-) TimerEvent: {}
+[10.705865] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[10.732294] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target beginner_tutorials__rosidl_typesupport_c__pyext\n'}
+[10.817414] (-) TimerEvent: {}
+[10.918335] (-) TimerEvent: {}
+[11.019356] (-) TimerEvent: {}
+[11.120330] (-) TimerEvent: {}
+[11.241858] (-) TimerEvent: {}
+[11.421103] (-) TimerEvent: {}
+[11.521893] (-) TimerEvent: {}
+[11.654130] (-) TimerEvent: {}
+[11.755263] (-) TimerEvent: {}
+[11.900088] (-) TimerEvent: {}
+[12.001160] (-) TimerEvent: {}
+[12.102374] (-) TimerEvent: {}
+[12.205011] (-) TimerEvent: {}
+[12.307326] (-) TimerEvent: {}
+[12.421564] (-) TimerEvent: {}
+[12.522727] (-) TimerEvent: {}
+[12.706871] (-) TimerEvent: {}
+[12.810110] (-) TimerEvent: {}
+[12.943571] (-) TimerEvent: {}
+[13.044111] (-) TimerEvent: {}
+[13.216301] (-) TimerEvent: {}
+[13.317030] (-) TimerEvent: {}
+[13.447039] (-) TimerEvent: {}
+[13.547722] (-) TimerEvent: {}
+[13.674104] (-) TimerEvent: {}
+[13.784762] (-) TimerEvent: {}
+[13.899118] (-) TimerEvent: {}
+[14.023907] (-) TimerEvent: {}
+[14.124632] (-) TimerEvent: {}
+[14.225715] (-) TimerEvent: {}
+[14.326500] (-) TimerEvent: {}
+[14.428635] (-) TimerEvent: {}
+[14.530164] (-) TimerEvent: {}
+[14.633619] (-) TimerEvent: {}
+[14.738992] (-) TimerEvent: {}
+[14.760191] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Publisher::change_message(std::shared_ptr<beginner_tutorials::srv::CustomService_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::CustomService_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.760615] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:104:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kresponse_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.760843] (beginner_tutorials) StderrLine: {'line': b'  104 |     response->\x1b[01;31m\x1b[Kresponse_message\x1b[m\x1b[K =\n'}
+[14.761850] (beginner_tutorials) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.761989] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:105:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Krequest_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.762098] (beginner_tutorials) StderrLine: {'line': b'  105 |         request->\x1b[01;31m\x1b[Krequest_message\x1b[m\x1b[K + "Hi, This is modified service!!";\n'}
+[14.762190] (beginner_tutorials) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.765337] (beginner_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[14.765639] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[14.765803] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[14.766014] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[14.766119] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[14.766204] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[14.766285] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[14.766368] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[14.766451] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[14.766533] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.766614] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41\x1b[m\x1b[K,\n'}
+[14.766691] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:11\x1b[m\x1b[K:\n'}
+[14.766794] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:107:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Krequest_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.766881] (beginner_tutorials) StderrLine: {'line': b'  107 |                        "Request message: " << request->\x1b[01;31m\x1b[Krequest_message\x1b[m\x1b[K);\n'}
+[14.766960] (beginner_tutorials) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.767038] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:109:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kresponse_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.767129] (beginner_tutorials) StderrLine: {'line': b'  109 |                        "Response message: " << response->\x1b[01;31m\x1b[Kresponse_message\x1b[m\x1b[K);\n'}
+[14.767208] (beginner_tutorials) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.868167] (-) TimerEvent: {}
+[14.969413] (-) TimerEvent: {}
+[15.070163] (-) TimerEvent: {}
+[15.171626] (-) TimerEvent: {}
+[15.273531] (-) TimerEvent: {}
+[15.375863] (-) TimerEvent: {}
+[15.531646] (-) TimerEvent: {}
+[15.633034] (-) TimerEvent: {}
+[15.733631] (-) TimerEvent: {}
+[15.873187] (-) TimerEvent: {}
+[15.974942] (-) TimerEvent: {}
+[16.076020] (-) TimerEvent: {}
+[16.177145] (-) TimerEvent: {}
+[16.278187] (-) TimerEvent: {}
+[16.378883] (-) TimerEvent: {}
+[16.480037] (-) TimerEvent: {}
+[16.581254] (-) TimerEvent: {}
+[16.683023] (-) TimerEvent: {}
+[16.783615] (-) TimerEvent: {}
+[16.884812] (-) TimerEvent: {}
+[16.986084] (-) TimerEvent: {}
+[17.087635] (-) TimerEvent: {}
+[17.188634] (-) TimerEvent: {}
+[17.295040] (-) TimerEvent: {}
+[17.330124] (beginner_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[17.338139] (beginner_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2\n'}
+[17.338445] (beginner_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.360571] (beginner_tutorials) CommandEnded: {'returncode': 2}
+[17.395944] (-) TimerEvent: {}
+[17.497545] (-) TimerEvent: {}
+[17.600322] (-) TimerEvent: {}
+[17.638993] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 2}
+[17.650065] (-) EventReactorShutdown: {}

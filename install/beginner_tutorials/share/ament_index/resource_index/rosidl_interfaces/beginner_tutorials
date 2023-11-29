@@ -1,4 +1,4 @@
-srv/ChangeString.idl
-srv/ChangeString.srv
-srv/ChangeString_Request.msg
-srv/ChangeString_Response.msg
+srv/CustomService.idl
+srv/CustomService.srv
+srv/CustomService_Request.msg
+srv/CustomService_Response.msg

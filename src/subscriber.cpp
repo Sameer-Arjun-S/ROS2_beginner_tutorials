@@ -3,51 +3,48 @@
  * @author ssarjun@umd.edu
  * @brief This subscriber program is used to print the message
  * sent by the publisher to topic
+ * @copyright Copyright (c) 2023 Sameer Arjun S
+ * This code is licensed under the Apache 2.0 License. Please see the
+ * accompanying LICENSE file for the full text of the license.
  */
-#include <memory>
 
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include <functional>
+#include <memory>
+#include <rclcpp/rclcpp.hpp>
+#include <std_msgs/msg/string.hpp>
 using std::placeholders::_1;
 
 /**
- * @brief Subscriber class Node for topic "topic"
+ * @brief The class subscriber captures the message whenever published
+ * to topic
  *
  */
 class Subscriber : public rclcpp::Node {
  public:
+  /**
+   * @brief Construct a Subscriber object
+   *
+   */
   Subscriber() : Node("subscriber") {
-    try {
-      subscription_ = this->create_subscription<std_msgs::msg::String>(
-          "chatter", 10,
-          std::bind(&Subscriber::topic_callback, this, _1));
-      RCLCPP_DEBUG_STREAM(this->get_logger(), "Initialized the Subscriber");
-    } catch (...) {
-      RCLCPP_ERROR_STREAM(this->get_logger(),
-                          "Error encountered at time of initialization!!");
-      RCLCPP_FATAL_STREAM(this->get_logger(), "Subscriber may not work!!");
-    }
+    subscription_ = this->create_subscription<std_msgs::msg::String>(
+        "topic", 10, std::bind(&Subscriber::topic_callback, this, _1));
   }
 
  private:
   /**
-   * @brief callback to handle the message transmit from the publisher on the
-   * topic
+   * @brief A callback method to capture the message whenever published
    *
-   * @param msg :string
+   * @param msg
    */
   void topic_callback(const std_msgs::msg::String& msg) const {
-    RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+    RCLCPP_INFO_STREAM(this->get_logger(), "ROS2 Humble Heard: " << msg.data);
   }
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
 
 int main(int argc, char* argv[]) {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<Subscriber>();
-  rclcpp::spin(node);
+  rclcpp::spin(std::make_shared<Subscriber>());
   rclcpp::shutdown();
-
-  RCLCPP_WARN_STREAM(node->get_logger(), "Shutting Down!! " << 4);
   return 0;
 }

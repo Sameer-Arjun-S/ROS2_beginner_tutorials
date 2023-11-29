@@ -1,1 +1,1 @@
-from beginner_tutorials.srv._change_string import ChangeString  # noqa: F401
+from beginner_tutorials.srv._custom_service import CustomService  # noqa: F401

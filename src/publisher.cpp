@@ -2,198 +2,139 @@
  * @file publisher.cpp
  * @author ssarjun@umd.edu
  * @brief This publisher program is used publish custom messages
+ * @copyright Copyright (c) 2023 Sameer Arjun S
+ * This code is licensed under the Apache 2.0 License. Please see the
+ * accompanying LICENSE file for the full text of the license.
  */
 
-#include "beginner_tutorials/srv/change_string.hpp"
-#include "geometry_msgs/msg/transform_stamped.hpp"
-#include "rcl_interfaces/msg/parameter_descriptor.hpp"
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-#include "tf2/LinearMath/Quaternion.h"
-#include "tf2_ros/static_transform_broadcaster.h"
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2_ros/static_transform_broadcaster.h>
 
+#include <beginner_tutorials/srv/custom_service.hpp>
+#include <chrono>
+#include <functional>
+#include <geometry_msgs/msg/transform_stamped.hpp>
+#include <memory>
+#include <rclcpp/executors.hpp>
+#include <rclcpp/logger.hpp>
+#include <rclcpp/logging.hpp>
+#include <rclcpp/rclcpp.hpp>
+#include <std_msgs/msg/string.hpp>
+#include <string>
 using namespace std::chrono_literals;
 
 /**
- * @brief A class representing a ROS 2 node that publishes messages and provides
- * a service.
+ * @brief The class minimal publisher creates a publisher object
+ * with bind method to publish frequently. It also creates a service call object
+ * to get the service request and response
  */
 class Publisher : public rclcpp::Node {
  public:
-  /**
-   * @brief Constructor for the Publisher class.
-   * @param transformations A vector containing parameters for static
-   * transformations.
-   */
-  explicit Publisher(const std::vector<std::string>& transformations)
-      : Node("publisher"), count1(0) {
-    try {
-      // Create a publisher for string messages
-      publisher_ = this->create_publisher<std_msgs::msg::String>("chatter", 10);
+  Publisher() : Node("publisher"), count_(0) {
+    // set the logger level to DEBUG
+    // this->get_logger().set_level(rclcpp::Logger::Level::Debug);
+    // RCLCPP_DEBUG_STREAM(this->get_logger(),"Getting frequency parameter
+    // value");
 
-      // Declare a parameter for the publishing frequency
-      auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
-      param_desc.description =
-          "This parameter is updated by the given argument in the launch file "
-          "and is used by the publisher and subscriber";
-      this->declare_parameter("frequency", 2, param_desc);
+    // Parameter for initializig publisher frequency
+    auto pub_frequency_info = rcl_interfaces::msg::ParameterDescriptor();
+    pub_frequency_info.description = "Custom frequency value for the publisher";
 
-      // Get the frequency parameter value
-      auto frequency =
-          this->get_parameter("frequency").get_parameter_value().get<int>();
+    // default frequency is 1.0
+    this->declare_parameter("frequency", 1.0, pub_frequency_info);
+    auto pub_frequency = this->get_parameter("frequency")
+                             .get_parameter_value()
+                             .get<std::float_t>();
+    if (pub_frequency < 0.0) {
+      RCLCPP_FATAL_STREAM_ONCE(rclcpp::get_logger("publisher"),
+                               "Frequency Cannot be negative");
+      exit(1);
+    } else if (pub_frequency == 0.0) {
+      RCLCPP_ERROR_STREAM(rclcpp::get_logger("publisher"),
+                          "Frequency set to zero");
+    } else if (pub_frequency > 100.0) {
+      RCLCPP_WARN_STREAM_ONCE(rclcpp::get_logger("publisher"),
+                              "Frequency greater than hundread");
+    } else {
+      RCLCPP_DEBUG_STREAM(rclcpp::get_logger("publisher"),
+                          "Frequency parameter is " << pub_frequency << " Hz");
 
-      RCLCPP_INFO_STREAM(this->get_logger(),
-                         "Parameter 'frequency' set to: " << frequency);
-
-      // Create a timer for publishing messages based on the frequency
-      timer_ = this->create_wall_timer(
-          std::chrono::milliseconds(1000 / (frequency != 0 ? frequency : 1)),
-          std::bind(&Publisher::timer_callback, this));
-
-      RCLCPP_DEBUG_STREAM(this->get_logger(), "Initialized the Publisher");
-
-      // Create a service for changing the string
-      server_ = this->create_service<beginner_tutorials::srv::ChangeString>(
-          "service_node",
-          std::bind(&Publisher::changeString, this, std::placeholders::_1,
-                    std::placeholders::_2));
-
-      RCLCPP_DEBUG_STREAM(this->get_logger(), "Initialized the Server");
-
-      // Create a broadcaster for static transforms
-      tf_static_broadcaster_ =
-          std::make_shared<tf2_ros::StaticTransformBroadcaster>(this);
-
-      // Generate and send static transforms
-      make_transforms(transformations);
-      RCLCPP_DEBUG_STREAM(this->get_logger(), "Initialized the transform");
-    } catch (const std::exception& e) {
-      RCLCPP_ERROR_STREAM(this->get_logger(),
-                          "Initialization error: " << e.what());
-      RCLCPP_FATAL_STREAM(this->get_logger(), "Publisher may not work!!");
+      RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
+                         "Publishing at " << pub_frequency << " Hz");
     }
-  }
 
-  /**
-   * @brief Callback function for the service that changes a string.
-   * @param request The service request.
-   * @param response The service response.
-   */
-  void changeString(
-      const std::shared_ptr<beginner_tutorials::srv::ChangeString::Request>
-          request,
-      std::shared_ptr<beginner_tutorials::srv::ChangeString::Response>
-          response) {
-    // Modify the received string and send it back as a response
-    response->op = request->ip + " Edited by service";
-    server_resp_message = response->op;
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+    auto time =
+        std::chrono::milliseconds(static_cast<int>(1000 / pub_frequency));
+    timer_ = this->create_wall_timer(
+        time, std::bind(&Publisher::timer_callback, this));
+    // Creating a service object to get request and response
+    auto serviceCallbackPtr =
+        std::bind(&Publisher::change_message, this,
+                  std::placeholders::_1, std::placeholders::_2);
 
-    RCLCPP_INFO(this->get_logger(), "Received service request\nInput: '%s'",
-                request->ip.c_str());
-    RCLCPP_INFO(this->get_logger(), "Sending back response: '%s'",
-                response->op.c_str());
+    service_ = create_service<beginner_tutorials::srv::CustomService>(
+        "custom_service", serviceCallbackPtr);
   }
 
  private:
   /**
-   * @brief Timer callback function that publishes messages.
+   * @brief This is used to publish the messages
+   *
    */
   void timer_callback() {
-    // Prepare and publish a string message
     auto message = std_msgs::msg::String();
-    message.data = server_resp_message;
-
-    RCLCPP_DEBUG_STREAM(this->get_logger(), "Inserted message data");
-    RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-
+    message.data = "Hello ROS2 Humble! " + std::to_string(count_++);
+    RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
+                       "Publishing: " << message.data);
     publisher_->publish(message);
+    broadcast_transform();
   }
-
   /**
-   * @brief Creates static transformations based on the provided parameters.
-   * @param transformation A vector containing parameters for static
-   * transformations.
+   * @brief This is used to change the message of service call object
+   *
+   * @param request , This parameter sets the service call request
+   * @param response , This sets the service call response
    */
-  void make_transforms(const std::vector<std::string>& transformation) {
-    if (transformation.size() < 6) {
-      RCLCPP_WARN(this->get_logger(),
-                  "Invalid number of parameters for transformation");
-      return;
-    }
-
-    // Create a static transform message
+  void change_message(
+      const std::shared_ptr<beginner_tutorials::srv::CustomService::Request>
+          request,
+      std::shared_ptr<beginner_tutorials::srv::CustomService::Response>
+          response) {
+    response->response_message =
+        request->request_message + "Hi, This is modified service!!";
+    RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
+                       "Request message: " << request->request_message);
+    RCLCPP_INFO_STREAM(rclcpp::get_logger("publisher"),
+                       "Response message: " << response->response_message);
+  }
+  void broadcast_transform() {
+    tf_static_broadcaster_ =
+        std::make_shared<tf2_ros::StaticTransformBroadcaster>(this);
     geometry_msgs::msg::TransformStamped t;
-
-    // Set the header information
-    t.header.stamp = this->now();
+    t.header.stamp = this->get_clock()->now();
     t.header.frame_id = "world";
-    t.child_frame_id = transformation[0];
-
-    // Set the translation information
-    t.transform.translation.x = std::stod(transformation[1]);
-    t.transform.translation.y = std::stod(transformation[2]);
-    t.transform.translation.z = std::stod(transformation[3]);
-
-    // Set the rotation information using Roll, Pitch, and Yaw
-    tf2::Quaternion q;
-    q.setRPY(std::stod(transformation[4]), std::stod(transformation[5]),
-             std::stod(transformation[6]));
-
-    t.transform.rotation.x = q.x();
-    t.transform.rotation.y = q.y();
-    t.transform.rotation.z = q.z();
-    t.transform.rotation.w = q.w();
-
-    // Send the static transform
+    t.child_frame_id = "talk";
+    // Translation component in meters
+    t.transform.translation.x = 0.2;
+    t.transform.translation.y = 0.0;
+    t.transform.translation.z = 0.6;
+    t.transform.rotation.x = 0.0;
+    t.transform.rotation.y = 0.0473595;
+    t.transform.rotation.z = 0.0;
+    t.transform.rotation.w = 0.0;
     tf_static_broadcaster_->sendTransform(t);
   }
-
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-  rclcpp::Service<beginner_tutorials::srv::ChangeString>::SharedPtr server_;
-  std::string server_resp_message = "Changed message from server";
-  size_t count1;
-
+  rclcpp::Service<beginner_tutorials::srv::CustomService>::SharedPtr service_;
+  size_t count_;
   std::shared_ptr<tf2_ros::StaticTransformBroadcaster> tf_static_broadcaster_;
 };
 
-/**
- * @brief Main function for the ROS 2 node.
- * @param argc Number of command line arguments.
- * @param argv Command line arguments.
- * @return 0 on success, 1 on failure.
- */
 int main(int argc, char* argv[]) {
-  if (argc < 7) {
-    // Display a warning if the number of parameters is invalid
-    RCLCPP_WARN(rclcpp::get_logger("rclcpp"),
-                "Invalid number of parameters\nusage: "
-                "$ ros2 run beginner_tutorials talker "
-                "child_frame_name tx ty tz roll pitch yaw %d",
-                argc);
-    return 1;
-  }
-
-  if (strcmp(argv[1], "world") == 0) {
-    // Display an info message if the static turtle name is "world"
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-                "Your static turtle name cannot be world");
-    return 1;
-  }
-
-  // Copy command line arguments into a vector
-  std::vector<std::string> transformations(argv + 1, argv + argc);
-
-  // Initialize ROS 2
   rclcpp::init(argc, argv);
-  // Create an instance of the Publisher class
-  auto node = std::make_shared<Publisher>(transformations);
-  // Spin the node
-  rclcpp::spin(node);
-  // Shutdown ROS 2
+  rclcpp::spin(std::make_shared<Publisher>());
   rclcpp::shutdown();
-
-  // Display a warning message upon shutdown
-  RCLCPP_WARN_STREAM(node->get_logger(), "Shutting Down!! " << 4);
   return 0;
 }
