@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.010467] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.010622] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.098175] (-) TimerEvent: {}
+[0.108448] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.109976] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'build'}
+[0.111674] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1913'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1879,unix/sas-virtual-machine:/tmp/.ICE-unix/1879'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6535629e_df51_4887_b804_d7352e2fe333'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FI70E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.202275] (-) TimerEvent: {}
+[0.221700] (beginner_tutorials) StdoutLine: {'line': b'[  8%] Built target beginner_tutorials__rosidl_generator_c\n'}
+[0.233070] (beginner_tutorials) StdoutLine: {'line': b'[ 13%] Built target listener\n'}
+[0.243460] (beginner_tutorials) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_beginner_tutorials\n'}
+[0.249122] (beginner_tutorials) StdoutLine: {'line': b'[ 16%] Built target beginner_tutorials__cpp\n'}
+[0.350877] (-) TimerEvent: {}
+[0.423402] (beginner_tutorials) StdoutLine: {'line': b'[ 24%] Built target beginner_tutorials__rosidl_typesupport_c\n'}
+[0.431318] (beginner_tutorials) StdoutLine: {'line': b'[ 32%] Built target beginner_tutorials__rosidl_typesupport_introspection_c\n'}
+[0.438116] (beginner_tutorials) StdoutLine: {'line': b'[ 40%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[0.451856] (-) TimerEvent: {}
+[0.454901] (beginner_tutorials) StdoutLine: {'line': b'[ 48%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[0.460454] (beginner_tutorials) StdoutLine: {'line': b'[ 56%] Built target beginner_tutorials__rosidl_typesupport_cpp\n'}
+[0.483469] (beginner_tutorials) StdoutLine: {'line': b'[ 64%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[0.523743] (beginner_tutorials) StdoutLine: {'line': b'[ 64%] Built target beginner_tutorials\n'}
+[0.552198] (-) TimerEvent: {}
+[0.632721] (beginner_tutorials) StdoutLine: {'line': b'[ 67%] Built target beginner_tutorials__py\n'}
+[0.633154] (beginner_tutorials) StdoutLine: {'line': b'[ 72%] Built target server_client\n'}
+[0.651251] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.652526] (-) TimerEvent: {}
+[0.747582] (beginner_tutorials) StdoutLine: {'line': b'[ 81%] Built target beginner_tutorials__rosidl_generator_py\n'}
+[0.753136] (-) TimerEvent: {}
+[0.932736] (beginner_tutorials) StdoutLine: {'line': b'[ 86%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[0.932898] (-) TimerEvent: {}
+[0.935155] (beginner_tutorials) StdoutLine: {'line': b'[ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext\n'}
+[0.947025] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.033436] (-) TimerEvent: {}
+[1.100952] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[1.102525] (beginner_tutorials) StdoutLine: {'line': b'writing beginner_tutorials.egg-info/PKG-INFO\n'}
+[1.103175] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt\n'}
+[1.104011] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to beginner_tutorials.egg-info/top_level.txt\n'}
+[1.108740] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[1.110076] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[1.133671] (-) TimerEvent: {}
+[1.161946] (beginner_tutorials) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg\n'}
+[1.234226] (-) TimerEvent: {}
+[1.334994] (-) TimerEvent: {}
+[1.436301] (-) TimerEvent: {}
+[1.537019] (-) TimerEvent: {}
+[1.638523] (-) TimerEvent: {}
+[1.739582] (-) TimerEvent: {}
+[1.840531] (-) TimerEvent: {}
+[1.942057] (-) TimerEvent: {}
+[2.043697] (-) TimerEvent: {}
+[2.144275] (-) TimerEvent: {}
+[2.245198] (-) TimerEvent: {}
+[2.346135] (-) TimerEvent: {}
+[2.447988] (-) TimerEvent: {}
+[2.548489] (-) TimerEvent: {}
+[2.649483] (-) TimerEvent: {}
+[2.750322] (-) TimerEvent: {}
+[2.851139] (-) TimerEvent: {}
+[2.952509] (-) TimerEvent: {}
+[3.053748] (-) TimerEvent: {}
+[3.154707] (-) TimerEvent: {}
+[3.255326] (-) TimerEvent: {}
+[3.356027] (-) TimerEvent: {}
+[3.456956] (-) TimerEvent: {}
+[3.558059] (-) TimerEvent: {}
+[3.658666] (-) TimerEvent: {}
+[3.761836] (-) TimerEvent: {}
+[3.862533] (-) TimerEvent: {}
+[3.963204] (-) TimerEvent: {}
+[4.064236] (-) TimerEvent: {}
+[4.165025] (-) TimerEvent: {}
+[4.265755] (-) TimerEvent: {}
+[4.366268] (-) TimerEvent: {}
+[4.466852] (-) TimerEvent: {}
+[4.568057] (-) TimerEvent: {}
+[4.668793] (-) TimerEvent: {}
+[4.770274] (-) TimerEvent: {}
+[4.871353] (-) TimerEvent: {}
+[4.972384] (-) TimerEvent: {}
+[5.073521] (-) TimerEvent: {}
+[5.174734] (-) TimerEvent: {}
+[5.275574] (-) TimerEvent: {}
+[5.365112] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:138:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.365523] (beginner_tutorials) StderrLine: {'line': b'  138 |   std::shared_ptr<\x1b[01;31m\x1b[Ktf2_ros\x1b[m\x1b[K::StaticTransformBroadcaster> tf_static_broadcaster_;\n'}
+[5.365638] (beginner_tutorials) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.365726] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:138:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.365816] (beginner_tutorials) StderrLine: {'line': b'  138 |   std::shared_ptr<tf2_ros::StaticTransformBroadcaster\x1b[01;31m\x1b[K>\x1b[m\x1b[K tf_static_broadcaster_;\n'}
+[5.365896] (beginner_tutorials) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.376558] (-) TimerEvent: {}
+[5.422906] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisher::Publisher(char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.423414] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.423564] (beginner_tutorials) StderrLine: {'line': b'   59 |           std::make_shared<\x1b[01;31m\x1b[Ktf2_ros\x1b[m\x1b[K::StaticTransformBroadcaster>(this);\n'}
+[5.423697] (beginner_tutorials) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.423892] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[5.424012] (beginner_tutorials) StderrLine: {'line': b'   59 |           std::\x1b[01;31m\x1b[Kmake_shared<tf2_ros::StaticTransformBroadcaster>\x1b[m\x1b[K(this);\n'}
+[5.424101] (beginner_tutorials) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.429831] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(Publisher*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.430153] (beginner_tutorials) StderrLine: {'line': b'   59 |           \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)\x1b[m\x1b[K;\n'}
+[5.430258] (beginner_tutorials) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.430790] (beginner_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.431440] (beginner_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:8\x1b[m\x1b[K:\n'}
+[5.431760] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.431893] (beginner_tutorials) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[5.432043] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.432131] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.432360] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.432561] (beginner_tutorials) StderrLine: {'line': b'   59 |           \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)\x1b[m\x1b[K;\n'}
+[5.432618] (beginner_tutorials) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.453345] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Publisher::make_transforms(char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.453720] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:115:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.453827] (beginner_tutorials) StderrLine: {'line': b'  115 |     \x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::TransformStamped t;\n'}
+[5.453915] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.462899] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:117:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.463246] (beginner_tutorials) StderrLine: {'line': b'  117 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[5.463351] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.463436] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[5.465917] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:124:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.466067] (beginner_tutorials) StderrLine: {'line': b'  124 |     \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::Quaternion q;\n'}
+[5.466155] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.471841] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:125:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.472180] (beginner_tutorials) StderrLine: {'line': b'  125 |     \x1b[01;31m\x1b[Kq\x1b[m\x1b[K.setRPY(atof(transformation[5]), atof(transformation[6]),\n'}
+[5.472382] (beginner_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.472491] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:132:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.472612] (beginner_tutorials) StderrLine: {'line': b'  132 |     tf_static_broadcaster_\x1b[01;31m\x1b[K->\x1b[m\x1b[KsendTransform(t);\n'}
+[5.472694] (beginner_tutorials) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.476875] (-) TimerEvent: {}
+[5.577644] (-) TimerEvent: {}
+[5.678810] (-) TimerEvent: {}
+[5.779945] (-) TimerEvent: {}
+[5.880525] (-) TimerEvent: {}
+[5.981486] (-) TimerEvent: {}
+[6.082608] (-) TimerEvent: {}
+[6.183585] (-) TimerEvent: {}
+[6.284841] (-) TimerEvent: {}
+[6.386209] (-) TimerEvent: {}
+[6.487196] (-) TimerEvent: {}
+[6.588320] (-) TimerEvent: {}
+[6.689523] (-) TimerEvent: {}
+[6.790260] (-) TimerEvent: {}
+[6.891295] (-) TimerEvent: {}
+[6.992114] (-) TimerEvent: {}
+[7.093420] (-) TimerEvent: {}
+[7.194758] (-) TimerEvent: {}
+[7.295577] (-) TimerEvent: {}
+[7.396469] (-) TimerEvent: {}
+[7.476907] (beginner_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[7.478027] (beginner_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2\n'}
+[7.478468] (beginner_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.481599] (beginner_tutorials) CommandEnded: {'returncode': 2}
+[7.496812] (-) TimerEvent: {}
+[7.597611] (-) TimerEvent: {}
+[7.701850] (-) TimerEvent: {}
+[7.782253] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 2}
+[7.793634] (-) EventReactorShutdown: {}

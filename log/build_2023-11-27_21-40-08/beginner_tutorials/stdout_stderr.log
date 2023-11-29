@@ -1,0 +1,70 @@
+[  8%] Built target beginner_tutorials__rosidl_generator_c
+[ 13%] Built target listener
+[ 13%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 16%] Built target beginner_tutorials__cpp
+[ 24%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 32%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 40%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 64%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 64%] Built target beginner_tutorials
+[ 67%] Built target beginner_tutorials__py
+[ 72%] Built target server_client
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 81%] Built target beginner_tutorials__rosidl_generator_py
+[ 86%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:138:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope
+  138 |   std::shared_ptr<[01;31m[Ktf2_ros[m[K::StaticTransformBroadcaster> tf_static_broadcaster_;
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:138:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |   std::shared_ptr<tf2_ros::StaticTransformBroadcaster[01;31m[K>[m[K tf_static_broadcaster_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher(char**)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope
+   59 |           std::make_shared<[01;31m[Ktf2_ros[m[K::StaticTransformBroadcaster>(this);
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:16:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   59 |           std::[01;31m[Kmake_shared<tf2_ros::StaticTransformBroadcaster>[m[K(this);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(Publisher*)[m[K’
+   59 |           [01;31m[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:8[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:59:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |           [01;31m[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::make_transforms(char**)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:115:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+  115 |     [01;31m[Kgeometry_msgs[m[K::msg::TransformStamped t;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:117:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  117 |     [01;31m[Kt[m[K.header.stamp = this->get_clock()->now();
+      |     [01;31m[K^[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  124 |     [01;31m[Ktf2[m[K::Quaternion q;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+  125 |     [01;31m[Kq[m[K.setRPY(atof(transformation[5]), atof(transformation[6]),
+      |     [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:132:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  132 |     tf_static_broadcaster_[01;31m[K->[m[KsendTransform(t);
+      |                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

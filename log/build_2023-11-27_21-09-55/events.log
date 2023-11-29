@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000382] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.000445] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.084201] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.085928] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/sas/ros2_ws/beginner_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials'], 'cwd': '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1913'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/1879,unix/sas-virtual-machine:/tmp/.ICE-unix/1879'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6535629e_df51_4887_b804_d7352e2fe333'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FI70E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098406] (-) TimerEvent: {}
+[0.116327] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199174] (-) TimerEvent: {}
+[0.300963] (-) TimerEvent: {}
+[0.401556] (-) TimerEvent: {}
+[0.402733] (beginner_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.458687] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.462955] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.474094] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.496945] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.501726] (-) TimerEvent: {}
+[0.528114] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.602257] (-) TimerEvent: {}
+[0.644561] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.648372] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.702773] (-) TimerEvent: {}
+[0.803428] (-) TimerEvent: {}
+[0.868140] (beginner_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.903792] (-) TimerEvent: {}
+[1.004668] (-) TimerEvent: {}
+[1.106290] (-) TimerEvent: {}
+[1.194189] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.206015] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.206408] (-) TimerEvent: {}
+[1.307092] (-) TimerEvent: {}
+[1.314799] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.408225] (-) TimerEvent: {}
+[1.509130] (-) TimerEvent: {}
+[1.612364] (-) TimerEvent: {}
+[1.722088] (-) TimerEvent: {}
+[1.825060] (-) TimerEvent: {}
+[1.925974] (-) TimerEvent: {}
+[2.027695] (-) TimerEvent: {}
+[2.059684] (beginner_tutorials) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.128014] (-) TimerEvent: {}
+[2.229500] (-) TimerEvent: {}
+[2.331091] (-) TimerEvent: {}
+[2.432181] (-) TimerEvent: {}
+[2.533294] (-) TimerEvent: {}
+[2.642400] (-) TimerEvent: {}
+[2.669403] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.742690] (-) TimerEvent: {}
+[2.843629] (-) TimerEvent: {}
+[2.945222] (-) TimerEvent: {}
+[3.046109] (-) TimerEvent: {}
+[3.147129] (-) TimerEvent: {}
+[3.248569] (-) TimerEvent: {}
+[3.268358] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.349972] (-) TimerEvent: {}
+[3.451296] (-) TimerEvent: {}
+[3.548177] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.560386] (-) TimerEvent: {}
+[3.575103] (beginner_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.630980] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.631413] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.631531] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.653714] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.657504] (beginner_tutorials) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.660535] (-) TimerEvent: {}
+[3.682151] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.685420] (beginner_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.692568] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (add_executable):\n'}
+[3.693075] (beginner_tutorials) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.693208] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.693300] (beginner_tutorials) StderrLine: {'line': b'    src/beginner_publisher.cpp\n'}
+[3.693385] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.693469] (beginner_tutorials) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.693554] (beginner_tutorials) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.693634] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.693711] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.714185] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:42 (add_executable):\n'}
+[3.714784] (beginner_tutorials) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.714945] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.715181] (beginner_tutorials) StderrLine: {'line': b'    src/beginner_subscriber.cpp\n'}
+[3.715321] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.715409] (beginner_tutorials) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.715501] (beginner_tutorials) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.715589] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.715984] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.716089] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[3.716126] (beginner_tutorials) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.716158] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.716188] (beginner_tutorials) StderrLine: {'line': b'    test/tf_test.cpp\n'}
+[3.716218] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.716247] (beginner_tutorials) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.716276] (beginner_tutorials) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.716306] (beginner_tutorials) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.716338] (beginner_tutorials) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[3.716366] (beginner_tutorials) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[3.716394] (beginner_tutorials) StderrLine: {'line': b'  CMakeLists.txt:78 (ament_add_gtest)\n'}
+[3.716422] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.716450] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.737929] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (add_executable):\n'}
+[3.738292] (beginner_tutorials) StderrLine: {'line': b'  No SOURCES given to target: talker\n'}
+[3.738395] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.738652] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.742631] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:42 (add_executable):\n'}
+[3.744227] (beginner_tutorials) StderrLine: {'line': b'  No SOURCES given to target: listener\n'}
+[3.744302] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.753180] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.753909] (beginner_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[3.754109] (beginner_tutorials) StderrLine: {'line': b'  No SOURCES given to target: beginner_tutorials_test\n'}
+[3.754211] (beginner_tutorials) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.754298] (beginner_tutorials) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[3.754380] (beginner_tutorials) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[3.754461] (beginner_tutorials) StderrLine: {'line': b'  CMakeLists.txt:78 (ament_add_gtest)\n'}
+[3.754584] (beginner_tutorials) StderrLine: {'line': b'\n'}
+[3.754616] (beginner_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[3.754644] (beginner_tutorials) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[3.760823] (-) TimerEvent: {}
+[3.772416] (beginner_tutorials) CommandEnded: {'returncode': 1}
+[3.861391] (-) TimerEvent: {}
+[3.924139] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 1}
+[3.935684] (-) EventReactorShutdown: {}

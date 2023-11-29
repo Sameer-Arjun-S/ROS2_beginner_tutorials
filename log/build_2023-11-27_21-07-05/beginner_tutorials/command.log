@@ -1,0 +1,2 @@
+Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials

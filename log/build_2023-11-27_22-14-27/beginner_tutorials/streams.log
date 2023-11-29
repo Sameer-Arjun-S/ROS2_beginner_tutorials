@@ -1,0 +1,35 @@
+[0.096s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.235s] [  2%] Built target beginner_tutorials__cpp
+[0.236s] [ 10%] Built target beginner_tutorials__rosidl_generator_c
+[0.236s] [ 16%] Built target listener
+[0.244s] [ 16%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.260s] [ 24%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.263s] [ 32%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.284s] [ 40%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.288s] [ 48%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.289s] [ 56%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.299s] [ 64%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.343s] [ 64%] Built target beginner_tutorials
+[0.387s] [ 67%] Built target beginner_tutorials__py
+[0.396s] [ 72%] Built target server_client
+[0.396s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.437s] [ 81%] Built target beginner_tutorials__rosidl_generator_py
+[0.488s] [ 86%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.491s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[0.493s] [ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.597s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+[0.597s]     8 | #include [01;31m[K"geometry_msgs/msg/transform_stamped.hpp"[m[K
+[0.598s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.598s] compilation terminated.
+[0.601s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[0.601s] gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+[0.601s] gmake[1]: *** Waiting for unfinished jobs....
+[0.780s] running egg_info
+[0.782s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.782s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.783s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.788s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.840s] [ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[0.842s] gmake: *** [Makefile:146: all] Error 2
+[0.847s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

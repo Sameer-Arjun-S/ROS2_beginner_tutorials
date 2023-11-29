@@ -1,0 +1,91 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_cpp>;/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c;/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_beginner_tutorials
+[  8%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+running egg_info
+creating beginner_tutorials.egg-info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[  8%] Built target beginner_tutorials__cpp
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 18%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c.o[0m
+[ 21%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_generator_c.so[0m
+[ 21%] Built target beginner_tutorials__rosidl_generator_c
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/change_string__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/change_string__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so[0m
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 51%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/change_string__type_support.c.o[0m
+[ 51%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 54%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so[0m
+[ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 56%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 59%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 62%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so[0m
+[ 62%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 62%] Built target beginner_tutorials
+[ 64%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o[0m
+[ 70%] Built target beginner_tutorials__py
+[ 72%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so[0m
+[ 75%] Built target beginner_tutorials__rosidl_generator_py
+[ 78%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 94%] [32m[1mLinking CXX executable listener[0m
+[ 94%] Built target listener

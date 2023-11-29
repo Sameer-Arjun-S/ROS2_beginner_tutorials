@@ -1,0 +1,163 @@
+[0.121s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+[0.121s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.930s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.993s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.998s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.010s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.208s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.211s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.827s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.519s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.446s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.498s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.498s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.521s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[3.521s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[3.521s]   rosidl_target_interfaces()
+[3.522s] Call Stack (most recent call first):
+[3.522s]   CMakeLists.txt:47 (rosidl_target_interfaces)
+[3.522s] 
+[3.522s] [0m
+[3.522s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[3.522s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[3.522s]   rosidl_target_interfaces()
+[3.522s] Call Stack (most recent call first):
+[3.522s]   CMakeLists.txt:49 (rosidl_target_interfaces)
+[3.522s] 
+[3.522s] [0m
+[3.522s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.647s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_cpp>;/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c;/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py
+[3.647s] -- Configured cppcheck exclude dirs and/or files: 
+[3.658s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.678s] -- Added test 'lint_cmake' to check CMake code style
+[3.688s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.764s] -- Added test 'uncrustify' to check C / C++ code style
+[3.764s] -- Configured uncrustify additional arguments: 
+[3.777s] -- Added test 'xmllint' to check XML markup files
+[3.781s] -- Configuring done
+[3.860s] -- Generating done
+[3.986s] -- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials
+[4.005s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+[4.006s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[4.117s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.292s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.336s] [  5%] Built target ament_cmake_python_copy_beginner_tutorials
+[4.357s] [  8%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[5.891s] running egg_info
+[5.897s] creating beginner_tutorials.egg-info
+[5.897s] writing beginner_tutorials.egg-info/PKG-INFO
+[5.897s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[5.898s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[5.914s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[5.925s] [  8%] Built target beginner_tutorials__cpp
+[5.936s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[5.945s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[5.963s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.056s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.151s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.166s] [ 16%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[6.514s] [ 18%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_c.dir/rosidl_generator_c/beginner_tutorials/srv/detail/change_string__functions.c.o[0m
+[6.988s] [ 21%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_generator_c.so[0m
+[7.345s] [ 21%] Built target beginner_tutorials__rosidl_generator_c
+[7.393s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.529s] [ 29%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[7.529s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.530s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.861s] [ 35%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beginner_tutorials/srv/detail/change_string__type_support.cpp.o[0m
+[8.110s] [ 37%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beginner_tutorials/srv/detail/dds_fastrtps/change_string__type_support.cpp.o[0m
+[9.296s] [ 40%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/beginner_tutorials/srv/change_string__type_support.cpp.o[0m
+[9.342s] [ 43%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_cpp.so[0m
+[9.420s] [ 45%] [32mBuilding CXX object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beginner_tutorials/srv/detail/change_string__type_support_c.cpp.o[0m
+[9.735s] [ 48%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_c.so[0m
+[9.758s] [ 48%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[9.772s] [ 51%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beginner_tutorials/srv/detail/change_string__type_support.c.o[0m
+[10.040s] [ 51%] Built target beginner_tutorials__rosidl_typesupport_c
+[10.209s] [ 54%] [32m[1mLinking C shared library libbeginner_tutorials__rosidl_typesupport_introspection_c.so[0m
+[10.486s] [ 54%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[10.877s] [ 56%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_introspection_cpp.so[0m
+[10.905s] [ 59%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.192s] [ 59%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[11.351s] [ 59%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[11.523s] [ 62%] [32m[1mLinking CXX shared library libbeginner_tutorials__rosidl_typesupport_fastrtps_c.so[0m
+[11.857s] [ 62%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[11.900s] [ 62%] Built target beginner_tutorials
+[12.056s] [ 64%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[12.096s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.111s] [ 70%] [32mBuilding CXX object CMakeFiles/server_client.dir/src/server_client.cpp.o[0m
+[14.250s] [ 70%] Built target beginner_tutorials__py
+[14.374s] [ 72%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_generator_py.dir/rosidl_generator_py/beginner_tutorials/srv/_change_string_s.c.o[0m
+[15.058s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/libbeginner_tutorials__rosidl_generator_py.so[0m
+[15.405s] [ 75%] Built target beginner_tutorials__rosidl_generator_py
+[15.531s] [ 78%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.634s] [ 81%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_c.c.o[0m
+[15.658s] [ 83%] [32mBuilding C object CMakeFiles/beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.479s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.718s] [ 89%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[16.725s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.863s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/beginner_tutorials/beginner_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.112s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[17.113s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[22.447s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:[m[K In member function ‘[01m[Kauto ServerClient::getRequest(char**)[m[K’:
+[22.447s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+[22.447s]    33 |     request->[01;31m[Kip[m[K = argv[1];
+[22.447s]       |              [01;31m[K^~[m[K
+[22.466s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[22.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[22.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[22.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[22.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[22.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.467s]                  from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:13[m[K:
+[22.467s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[22.467s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+[22.468s]    59 |                 result.get()->[01;31m[Kop[m[K.c_str());
+[22.468s]       |                               [01;31m[K^~[m[K
+[22.909s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)[m[K’:
+[22.914s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:72:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+[22.915s]    72 |     response->[01;31m[Kop[m[K = request->ip + " Edited by service";
+[22.915s]       |               [01;31m[K^~[m[K
+[22.915s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:72:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+[22.915s]    72 |     response->op = request->[01;31m[Kip[m[K + " Edited by service";
+[22.915s]       |                             [01;31m[K^~[m[K
+[22.915s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:74:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+[22.916s]    74 |     server_resp_message = response->[01;31m[Kop[m[K;
+[22.916s]       |                                     [01;31m[K^~[m[K
+[22.916s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[22.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[22.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[22.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[22.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.923s]                  from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13[m[K:
+[22.923s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:76:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+[22.923s]    76 |                 request->[01;31m[Kip[m[K.c_str());  //+
+[22.923s]       |                          [01;31m[K^~[m[K
+[22.923s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:78:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+[22.923s]    78 |                 response->[01;31m[Kop[m[K.c_str());
+[22.923s]       |                           [01;31m[K^~[m[K
+[24.231s] gmake[2]: *** [CMakeFiles/server_client.dir/build.make:76: CMakeFiles/server_client.dir/src/server_client.cpp.o] Error 1
+[24.231s] gmake[1]: *** [CMakeFiles/Makefile2:652: CMakeFiles/server_client.dir/all] Error 2
+[24.231s] gmake[1]: *** Waiting for unfinished jobs....
+[25.298s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[25.299s] gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+[33.809s] [ 94%] [32m[1mLinking CXX executable listener[0m
+[34.789s] [ 94%] Built target listener
+[34.815s] gmake: *** [Makefile:146: all] Error 2
+[34.825s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
