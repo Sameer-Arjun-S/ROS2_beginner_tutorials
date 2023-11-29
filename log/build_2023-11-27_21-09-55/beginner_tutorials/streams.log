@@ -1,0 +1,75 @@
+[0.091s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials
+[0.116s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.869s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.194s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.206s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[1.315s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.061s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[2.671s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.575s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.631s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.631s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.653s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.657s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.682s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.685s] -- Configuring done
+[3.693s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[3.693s]   Cannot find source file:
+[3.693s] 
+[3.693s]     src/beginner_publisher.cpp
+[3.693s] 
+[3.693s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.693s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.693s] 
+[3.693s] [0m
+[3.714s] [31mCMake Error at CMakeLists.txt:42 (add_executable):
+[3.714s]   Cannot find source file:
+[3.715s] 
+[3.715s]     src/beginner_subscriber.cpp
+[3.715s] 
+[3.715s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.715s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.715s] 
+[3.716s] [0m
+[3.716s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.716s]   Cannot find source file:
+[3.716s] 
+[3.716s]     test/tf_test.cpp
+[3.716s] 
+[3.716s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.716s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.716s] Call Stack (most recent call first):
+[3.716s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.716s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.716s]   CMakeLists.txt:78 (ament_add_gtest)
+[3.716s] 
+[3.716s] [0m
+[3.738s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[3.738s]   No SOURCES given to target: talker
+[3.738s] 
+[3.738s] [0m
+[3.742s] [31mCMake Error at CMakeLists.txt:42 (add_executable):
+[3.744s]   No SOURCES given to target: listener
+[3.744s] 
+[3.753s] [0m
+[3.754s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.754s]   No SOURCES given to target: beginner_tutorials_test
+[3.754s] Call Stack (most recent call first):
+[3.754s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.754s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.754s]   CMakeLists.txt:78 (ament_add_gtest)
+[3.754s] 
+[3.754s] [0m
+[3.754s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.774s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sas/ros2_ws/beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials

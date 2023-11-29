@@ -1,0 +1,42 @@
+[0.096s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.201s] [  4%] Built target gtest_main
+[0.206s] [  7%] Built target beginner_tutorials__cpp
+[0.207s] [ 14%] Built target beginner_tutorials__rosidl_generator_c
+[0.226s] [ 14%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.226s] [ 19%] Built target gtest
+[0.254s] [ 26%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.258s] [ 34%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.261s] [ 41%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.273s] [ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.278s] [ 56%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.279s] [ 63%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.291s] [ 65%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/test.cpp.o[0m
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.313s] [ 68%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.324s] [ 68%] Built target beginner_tutorials
+[0.340s] [ 73%] Built target listener
+[0.365s] [ 75%] Built target beginner_tutorials__py
+[0.405s] [ 80%] Built target beginner_tutorials__rosidl_generator_py
+[0.452s] [ 85%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[0.453s] [ 90%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.460s] [ 95%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.718s] running egg_info
+[0.720s] writing beginner_tutorials.egg-info/PKG-INFO
+[0.721s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[0.721s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[0.724s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/Change_String.hpp: No such file or directory
+[0.724s]    13 | #include [01;31m[K<beginner_tutorials/srv/Change_String.hpp>[m[K
+[0.724s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.724s] compilation terminated.
+[0.728s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[0.728s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.729s] gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+[0.729s] gmake[1]: *** Waiting for unfinished jobs....
+[0.729s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[0.780s] [ 95%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[8.506s] [ 97%] [32m[1mLinking CXX executable beginner_tutorials_test[0m
+[8.963s] [ 97%] Built target beginner_tutorials_test
+[8.966s] gmake: *** [Makefile:146: all] Error 2
+[8.972s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

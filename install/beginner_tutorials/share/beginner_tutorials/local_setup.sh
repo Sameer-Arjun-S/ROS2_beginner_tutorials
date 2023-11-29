@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/sas/ros2_ws/src/beginner_tutorials/install/beginner_tutorials"}
+: ${AMENT_CURRENT_PREFIX:="/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

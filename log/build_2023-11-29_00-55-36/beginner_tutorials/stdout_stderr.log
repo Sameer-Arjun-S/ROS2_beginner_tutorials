@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  4%] Built target gtest_main
+[  7%] Built target beginner_tutorials__cpp
+[ 14%] Built target beginner_tutorials__rosidl_generator_c
+[ 14%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 19%] Built target gtest
+[ 26%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 41%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 56%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 63%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 65%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/test.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 68%] Built target beginner_tutorials
+[ 73%] Built target listener
+[ 75%] Built target beginner_tutorials__py
+[ 80%] Built target beginner_tutorials__rosidl_generator_py
+[ 85%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 90%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/Change_String.hpp: No such file or directory
+   13 | #include [01;31m[K<beginner_tutorials/srv/Change_String.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 97%] [32m[1mLinking CXX executable beginner_tutorials_test[0m
+[ 97%] Built target beginner_tutorials_test
+gmake: *** [Makefile:146: all] Error 2

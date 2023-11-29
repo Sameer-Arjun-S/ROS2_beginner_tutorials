@@ -1,0 +1,82 @@
+[  2%] Built target beginner_tutorials__cpp
+[  4%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 11%] Built target beginner_tutorials__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_beginner_tutorials
+[ 16%] Built target gtest_main
+[ 23%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[ 27%] Built target gtest
+[ 34%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 48%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 55%] Built target beginner_tutorials__rosidl_typesupport_c
+[ 58%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/test.cpp.o[0m
+[ 65%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 65%] Built target beginner_tutorials
+[ 67%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 69%] Built target beginner_tutorials__py
+[ 74%] Built target server_client
+[ 79%] Built target beginner_tutorials__rosidl_generator_py
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[ 83%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[ 88%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 93%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:161:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  161 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K At global scope:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:177:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+  177 |   std::vector<std::string> transformations([01;31m[Kargv[m[K + 1, argv + argc);
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:177:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+  177 |   std::vector<std::string> transformations(argv + 1, [01;31m[Kargv[m[K + argc);
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:177:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+  177 |   std::vector<std::string> transformations(argv + 1, argv + [01;31m[Kargc[m[K);
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:178:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  178 |   rclcpp::init[01;31m[K([m[Kargc, argv);
+      |               [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:181:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  181 |   rclcpp::spin[01;31m[K([m[Knode);
+      |               [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:182:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  182 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13[m[K:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:183:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  183 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Program Shutting Down! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:183:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  183 |   [01;31m[KRCLCPP_WARN_STREAM[m[K(node->get_logger(), "Program Shutting Down! " << 4);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  184 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:185:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  185 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:619: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 95%] [32m[1mLinking CXX executable beginner_tutorials_test[0m
+[ 95%] Built target beginner_tutorials_test
+[ 97%] [32m[1mLinking CXX executable listener[0m
+[ 97%] Built target listener
+gmake: *** [Makefile:146: all] Error 2

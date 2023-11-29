@@ -1,0 +1,68 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:47 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:[m[K In member function ‘[01m[Kauto ServerClient::getRequest(char**)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+   33 |     request->[01;31m[Kip[m[K = argv[1];
+      |              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:13[m[K:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/server_client.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+   59 |                 result.get()->[01;31m[Kop[m[K.c_str());
+      |                               [01;31m[K^~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::changeString(std::shared_ptr<beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:72:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+   72 |     response->[01;31m[Kop[m[K = request->ip + " Edited by service";
+      |               [01;31m[K^~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:72:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+   72 |     response->op = request->[01;31m[Kip[m[K + " Edited by service";
+      |                             [01;31m[K^~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:74:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+   74 |     server_resp_message = response->[01;31m[Kop[m[K;
+      |                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13[m[K:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:76:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kip[m[K’
+   76 |                 request->[01;31m[Kip[m[K.c_str());  //+
+      |                          [01;31m[K^~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:78:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::ChangeString_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kop[m[K’
+   78 |                 response->[01;31m[Kop[m[K.c_str());
+      |                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/server_client.dir/build.make:76: CMakeFiles/server_client.dir/src/server_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:652: CMakeFiles/server_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,80 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_c[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 12%] Built target beginner_tutorials__rosidl_generator_c
+[ 14%] Built target beginner_tutorials__cpp
+[ 14%] Built target ament_cmake_python_copy_beginner_tutorials
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c[0m
+[ 21%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[ 29%] Built target beginner_tutorials__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_cpp[0m
+[ 36%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[ 46%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[ 51%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 58%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 63%] Built target beginner_tutorials
+[ 65%] Built target beginner_tutorials__py
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_py[0m
+[ 70%] Built target beginner_tutorials__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 75%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[ 80%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[ 85%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/custom_service.hpp: No such file or directory
+   13 | #include [01;31m[K<beginner_tutorials/srv/custom_service.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 85%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[ 87%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 87%] Built target gtest_main
+[ 90%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 90%] Built target gtest
+[ 92%] [32m[1mLinking CXX executable listener[0m
+[ 92%] Built target listener
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,34 @@
+[0.193s] Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[0.575s] [  2%] Built target beginner_tutorials__cpp
+[0.581s] [ 10%] Built target beginner_tutorials__rosidl_generator_c
+[0.653s] [ 10%] Built target ament_cmake_python_copy_beginner_tutorials
+[0.713s] [ 18%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.714s] [ 27%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[0.795s] [ 40%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[0.839s] [ 45%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[0.858s] [ 51%] Built target beginner_tutorials__rosidl_typesupport_c
+[0.872s] [ 59%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[0.939s] [ 64%] Built target listener
+[0.983s] [ 64%] Built target beginner_tutorials
+[1.220s] [ 67%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[1.221s] [ 70%] Built target beginner_tutorials__py
+[1.349s] [ 75%] Built target server_client
+[1.455s] [ 81%] Built target beginner_tutorials__rosidl_generator_py
+[1.704s] [ 86%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[1.743s] [ 91%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[1.800s] running egg_info
+[1.805s] [ 97%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[1.805s] writing beginner_tutorials.egg-info/PKG-INFO
+[1.846s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[1.849s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[1.863s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[1.868s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[1.967s] [ 97%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[2.364s] [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+[2.365s]     8 | #include [01;31m[K"geometry_msgs/msg/transform_stamped.hpp"[m[K
+[2.365s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.395s] compilation terminated.
+[2.403s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[2.414s] gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/talker.dir/all] Error 2
+[2.447s] gmake: *** [Makefile:146: all] Error 2
+[2.448s] Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8

@@ -1,0 +1,28 @@
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::change_message(std::shared_ptr<beginner_tutorials::srv::CustomService_Request_<std::allocator<void> > >, std::shared_ptr<beginner_tutorials::srv::CustomService_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:104:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse_message[m[K’
+  104 |     response->[01;31m[Kresponse_message[m[K =
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:105:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krequest_message[m[K’
+  105 |         request->[01;31m[Krequest_message[m[K + "Hi, This is modified service!!";
+      |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:11[m[K:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:107:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::CustomService_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krequest_message[m[K’
+  107 |                        "Request message: " << request->[01;31m[Krequest_message[m[K);
+      |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:109:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct beginner_tutorials::srv::CustomService_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse_message[m[K’
+  109 |                        "Response message: " << response->[01;31m[Kresponse_message[m[K);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

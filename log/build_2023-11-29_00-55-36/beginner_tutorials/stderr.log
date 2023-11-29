@@ -1,0 +1,8 @@
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/srv/Change_String.hpp: No such file or directory
+   13 | #include [01;31m[K<beginner_tutorials/srv/Change_String.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

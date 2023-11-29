@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.001338] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.077436] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'cmake'}
+[0.085956] (beginner_tutorials) JobProgress: {'identifier': 'beginner_tutorials', 'progress': 'build'}
+[0.087034] (beginner_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sas'), ('OLDPWD', '/home/sas/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2108'), ('SYSTEMD_EXEC_PID', '2285'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6430'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sas'), ('JOURNAL_STREAM', '8:42258'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sas-virtual-machine:@/tmp/.ICE-unix/2249,unix/sas-virtual-machine:/tmp/.ICE-unix/2249'), ('INVOCATION_ID', '721bc14b0e8b425ea6f0a5081828ed68'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5SF5E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f3523e2-3125-40b1-a449-25cfe35c2050'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100254] (-) TimerEvent: {}
+[0.142149] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201494] (-) TimerEvent: {}
+[0.302331] (-) TimerEvent: {}
+[0.403152] (-) TimerEvent: {}
+[0.434714] (beginner_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.491477] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.495605] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.504339] (-) TimerEvent: {}
+[0.508755] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.530068] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.559988] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.605410] (-) TimerEvent: {}
+[0.688452] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.691123] (beginner_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.706189] (-) TimerEvent: {}
+[0.807041] (-) TimerEvent: {}
+[0.915951] (beginner_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.916323] (-) TimerEvent: {}
+[1.017150] (-) TimerEvent: {}
+[1.118176] (-) TimerEvent: {}
+[1.219333] (-) TimerEvent: {}
+[1.234402] (beginner_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.246685] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.319872] (-) TimerEvent: {}
+[1.353260] (beginner_tutorials) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.420644] (-) TimerEvent: {}
+[1.522076] (-) TimerEvent: {}
+[1.622715] (-) TimerEvent: {}
+[1.723358] (-) TimerEvent: {}
+[1.824235] (-) TimerEvent: {}
+[1.925955] (-) TimerEvent: {}
+[1.988856] (beginner_tutorials) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.026582] (-) TimerEvent: {}
+[2.127799] (-) TimerEvent: {}
+[2.228319] (-) TimerEvent: {}
+[2.342730] (-) TimerEvent: {}
+[2.443597] (-) TimerEvent: {}
+[2.545074] (-) TimerEvent: {}
+[2.566202] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.646091] (-) TimerEvent: {}
+[2.746667] (-) TimerEvent: {}
+[2.847317] (-) TimerEvent: {}
+[2.948602] (-) TimerEvent: {}
+[3.050073] (-) TimerEvent: {}
+[3.147282] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.150368] (-) TimerEvent: {}
+[3.251128] (-) TimerEvent: {}
+[3.351895] (-) TimerEvent: {}
+[3.427949] (beginner_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.452382] (-) TimerEvent: {}
+[3.472481] (beginner_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.515444] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.515733] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.515777] (beginner_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.538797] (beginner_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.542606] (beginner_tutorials) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.552666] (-) TimerEvent: {}
+[3.585486] (beginner_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.588986] (beginner_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.653832] (-) TimerEvent: {}
+[3.691631] (beginner_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[3.701014] (beginner_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials\n'}
+[3.754237] (-) TimerEvent: {}
+[3.759331] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_c\x1b[0m\n'}
+[3.870822] (beginner_tutorials) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.871155] (-) TimerEvent: {}
+[3.871386] (beginner_tutorials) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.922721] (beginner_tutorials) StdoutLine: {'line': b'[ 12%] Built target beginner_tutorials__rosidl_generator_c\n'}
+[3.923878] (beginner_tutorials) StdoutLine: {'line': b'[ 14%] Built target beginner_tutorials__cpp\n'}
+[3.934602] (beginner_tutorials) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_beginner_tutorials\n'}
+[3.961461] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.972268] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c\x1b[0m\n'}
+[3.972549] (-) TimerEvent: {}
+[3.979072] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.995881] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.105752] (-) TimerEvent: {}
+[4.119035] (beginner_tutorials) StdoutLine: {'line': b'[ 21%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[4.196408] (beginner_tutorials) StdoutLine: {'line': b'[ 29%] Built target beginner_tutorials__rosidl_typesupport_c\n'}
+[4.199272] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.210403] (beginner_tutorials) StdoutLine: {'line': b'[ 36%] Built target beginner_tutorials__rosidl_typesupport_introspection_c\n'}
+[4.210845] (-) TimerEvent: {}
+[4.232616] (beginner_tutorials) StdoutLine: {'line': b'[ 46%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[4.232934] (beginner_tutorials) StdoutLine: {'line': b'[ 51%] Built target beginner_tutorials__rosidl_typesupport_cpp\n'}
+[4.243368] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.346299] (-) TimerEvent: {}
+[4.350852] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[4.418669] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[4.422790] (beginner_tutorials) StdoutLine: {'line': b'[ 58%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[4.443214] (beginner_tutorials) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[4.446697] (-) TimerEvent: {}
+[4.462455] (beginner_tutorials) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[4.555122] (-) TimerEvent: {}
+[4.618468] (beginner_tutorials) StdoutLine: {'line': b'[ 63%] Built target beginner_tutorials\n'}
+[4.660811] (-) TimerEvent: {}
+[4.684252] (beginner_tutorials) StdoutLine: {'line': b'[ 65%] Built target beginner_tutorials__py\n'}
+[4.768105] (-) TimerEvent: {}
+[4.841157] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_generator_py\x1b[0m\n'}
+[4.868511] (-) TimerEvent: {}
+[4.882542] (beginner_tutorials) StdoutLine: {'line': b'[ 70%] Built target beginner_tutorials__rosidl_generator_py\n'}
+[5.011135] (-) TimerEvent: {}
+[5.094688] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.095019] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.107425] (-) TimerEvent: {}
+[5.140321] (beginner_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.144575] (beginner_tutorials) StdoutLine: {'line': b'[ 75%] Built target beginner_tutorials__rosidl_typesupport_c__pyext\n'}
+[5.150241] (beginner_tutorials) StdoutLine: {'line': b'[ 80%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[5.245563] (beginner_tutorials) StdoutLine: {'line': b'[ 85%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.246044] (-) TimerEvent: {}
+[5.361389] (-) TimerEvent: {}
+[5.486933] (-) TimerEvent: {}
+[5.606684] (-) TimerEvent: {}
+[5.707903] (-) TimerEvent: {}
+[5.733897] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[5.734270] (beginner_tutorials) StdoutLine: {'line': b'writing beginner_tutorials.egg-info/PKG-INFO\n'}
+[5.734362] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt\n'}
+[5.734473] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to beginner_tutorials.egg-info/top_level.txt\n'}
+[5.734543] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[5.761003] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[5.808526] (-) TimerEvent: {}
+[5.836516] (beginner_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:13:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbeginner_tutorials/srv/custom_service.hpp: No such file or directory\n'}
+[5.836852] (beginner_tutorials) StderrLine: {'line': b'   13 | #include \x1b[01;31m\x1b[K<beginner_tutorials/srv/custom_service.hpp>\x1b[m\x1b[K\n'}
+[5.836972] (beginner_tutorials) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.837062] (beginner_tutorials) StderrLine: {'line': b'compilation terminated.\n'}
+[5.843390] (beginner_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[5.843692] (beginner_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.843792] (beginner_tutorials) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.861217] (beginner_tutorials) StdoutLine: {'line': b'[ 85%] Built target ament_cmake_python_build_beginner_tutorials_egg\n'}
+[5.973312] (-) TimerEvent: {}
+[6.074492] (-) TimerEvent: {}
+[6.176027] (-) TimerEvent: {}
+[6.276947] (-) TimerEvent: {}
+[6.381505] (-) TimerEvent: {}
+[6.529093] (-) TimerEvent: {}
+[6.746108] (-) TimerEvent: {}
+[6.761125] (beginner_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[6.866555] (-) TimerEvent: {}
+[6.962973] (beginner_tutorials) StdoutLine: {'line': b'[ 87%] Built target gtest_main\n'}
+[6.966713] (-) TimerEvent: {}
+[7.067907] (-) TimerEvent: {}
+[7.168888] (-) TimerEvent: {}
+[7.270031] (-) TimerEvent: {}
+[7.370905] (-) TimerEvent: {}
+[7.471746] (-) TimerEvent: {}
+[7.572663] (-) TimerEvent: {}
+[7.673685] (-) TimerEvent: {}
+[7.775921] (-) TimerEvent: {}
+[7.876968] (-) TimerEvent: {}
+[7.983134] (-) TimerEvent: {}
+[8.083947] (-) TimerEvent: {}
+[8.184906] (-) TimerEvent: {}
+[8.285591] (-) TimerEvent: {}
+[8.386469] (-) TimerEvent: {}
+[8.487929] (-) TimerEvent: {}
+[8.589652] (-) TimerEvent: {}
+[8.690071] (-) TimerEvent: {}
+[8.791535] (-) TimerEvent: {}
+[8.892506] (-) TimerEvent: {}
+[8.993573] (-) TimerEvent: {}
+[9.094645] (-) TimerEvent: {}
+[9.195953] (-) TimerEvent: {}
+[9.297391] (-) TimerEvent: {}
+[9.398082] (-) TimerEvent: {}
+[9.498758] (-) TimerEvent: {}
+[9.601498] (-) TimerEvent: {}
+[9.703083] (-) TimerEvent: {}
+[9.804235] (-) TimerEvent: {}
+[9.905972] (-) TimerEvent: {}
+[10.007504] (-) TimerEvent: {}
+[10.108476] (-) TimerEvent: {}
+[10.209957] (-) TimerEvent: {}
+[10.311247] (-) TimerEvent: {}
+[10.412400] (-) TimerEvent: {}
+[10.514090] (-) TimerEvent: {}
+[10.615171] (-) TimerEvent: {}
+[10.717151] (-) TimerEvent: {}
+[10.818625] (-) TimerEvent: {}
+[10.920278] (-) TimerEvent: {}
+[11.021610] (-) TimerEvent: {}
+[11.123412] (-) TimerEvent: {}
+[11.224579] (-) TimerEvent: {}
+[11.325777] (-) TimerEvent: {}
+[11.426680] (-) TimerEvent: {}
+[11.527913] (-) TimerEvent: {}
+[11.628854] (-) TimerEvent: {}
+[11.729951] (-) TimerEvent: {}
+[11.831193] (-) TimerEvent: {}
+[11.932894] (-) TimerEvent: {}
+[12.034646] (-) TimerEvent: {}
+[12.135643] (-) TimerEvent: {}
+[12.236716] (-) TimerEvent: {}
+[12.338084] (-) TimerEvent: {}
+[12.468178] (-) TimerEvent: {}
+[12.569427] (-) TimerEvent: {}
+[12.670211] (-) TimerEvent: {}
+[12.771852] (-) TimerEvent: {}
+[12.872573] (-) TimerEvent: {}
+[12.973526] (-) TimerEvent: {}
+[13.074892] (-) TimerEvent: {}
+[13.176129] (-) TimerEvent: {}
+[13.277210] (-) TimerEvent: {}
+[13.379010] (-) TimerEvent: {}
+[13.480843] (-) TimerEvent: {}
+[13.581981] (-) TimerEvent: {}
+[13.683808] (-) TimerEvent: {}
+[13.784978] (-) TimerEvent: {}
+[13.885955] (-) TimerEvent: {}
+[13.987704] (-) TimerEvent: {}
+[14.089378] (-) TimerEvent: {}
+[14.190581] (-) TimerEvent: {}
+[14.293375] (-) TimerEvent: {}
+[14.394486] (-) TimerEvent: {}
+[14.496202] (-) TimerEvent: {}
+[14.597822] (-) TimerEvent: {}
+[14.699112] (-) TimerEvent: {}
+[14.800019] (-) TimerEvent: {}
+[14.928057] (-) TimerEvent: {}
+[15.028774] (-) TimerEvent: {}
+[15.130047] (-) TimerEvent: {}
+[15.231697] (-) TimerEvent: {}
+[15.340228] (-) TimerEvent: {}
+[15.404048] (beginner_tutorials) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.440774] (-) TimerEvent: {}
+[15.509490] (beginner_tutorials) StdoutLine: {'line': b'[ 90%] Built target gtest\n'}
+[15.541176] (-) TimerEvent: {}
+[15.642624] (-) TimerEvent: {}
+[15.749070] (-) TimerEvent: {}
+[15.850124] (-) TimerEvent: {}
+[15.951027] (-) TimerEvent: {}
+[16.052330] (-) TimerEvent: {}
+[16.153788] (-) TimerEvent: {}
+[16.254954] (-) TimerEvent: {}
+[16.355577] (-) TimerEvent: {}
+[16.457119] (-) TimerEvent: {}
+[16.557830] (-) TimerEvent: {}
+[16.658448] (-) TimerEvent: {}
+[16.762226] (-) TimerEvent: {}
+[16.863525] (-) TimerEvent: {}
+[16.964584] (-) TimerEvent: {}
+[17.093728] (-) TimerEvent: {}
+[17.194688] (-) TimerEvent: {}
+[17.311743] (-) TimerEvent: {}
+[17.412415] (-) TimerEvent: {}
+[17.513659] (-) TimerEvent: {}
+[17.614383] (-) TimerEvent: {}
+[17.714952] (-) TimerEvent: {}
+[17.815716] (-) TimerEvent: {}
+[17.917058] (-) TimerEvent: {}
+[18.017658] (-) TimerEvent: {}
+[18.118405] (-) TimerEvent: {}
+[18.220021] (-) TimerEvent: {}
+[18.324464] (-) TimerEvent: {}
+[18.425640] (-) TimerEvent: {}
+[18.526447] (-) TimerEvent: {}
+[18.627203] (-) TimerEvent: {}
+[18.728897] (-) TimerEvent: {}
+[18.833537] (-) TimerEvent: {}
+[18.934350] (-) TimerEvent: {}
+[19.035135] (-) TimerEvent: {}
+[19.135836] (-) TimerEvent: {}
+[19.239613] (-) TimerEvent: {}
+[19.340533] (-) TimerEvent: {}
+[19.441148] (-) TimerEvent: {}
+[19.542253] (-) TimerEvent: {}
+[19.643852] (-) TimerEvent: {}
+[19.745069] (-) TimerEvent: {}
+[19.846723] (-) TimerEvent: {}
+[19.948147] (-) TimerEvent: {}
+[20.048886] (-) TimerEvent: {}
+[20.150014] (-) TimerEvent: {}
+[20.251109] (-) TimerEvent: {}
+[20.351814] (-) TimerEvent: {}
+[20.453324] (-) TimerEvent: {}
+[20.563711] (-) TimerEvent: {}
+[20.664607] (-) TimerEvent: {}
+[20.765373] (-) TimerEvent: {}
+[20.869349] (-) TimerEvent: {}
+[20.976772] (-) TimerEvent: {}
+[21.077735] (-) TimerEvent: {}
+[21.178801] (-) TimerEvent: {}
+[21.279766] (-) TimerEvent: {}
+[21.381071] (-) TimerEvent: {}
+[21.481796] (-) TimerEvent: {}
+[21.583270] (-) TimerEvent: {}
+[21.683793] (-) TimerEvent: {}
+[21.785263] (-) TimerEvent: {}
+[21.886849] (-) TimerEvent: {}
+[21.987605] (-) TimerEvent: {}
+[22.088952] (-) TimerEvent: {}
+[22.190008] (-) TimerEvent: {}
+[22.290972] (-) TimerEvent: {}
+[22.392211] (-) TimerEvent: {}
+[22.493477] (-) TimerEvent: {}
+[22.594114] (-) TimerEvent: {}
+[22.694792] (-) TimerEvent: {}
+[22.795628] (-) TimerEvent: {}
+[22.907699] (-) TimerEvent: {}
+[23.009230] (-) TimerEvent: {}
+[23.110420] (-) TimerEvent: {}
+[23.211858] (-) TimerEvent: {}
+[23.316493] (-) TimerEvent: {}
+[23.417703] (-) TimerEvent: {}
+[23.518864] (-) TimerEvent: {}
+[23.619815] (-) TimerEvent: {}
+[23.720997] (-) TimerEvent: {}
+[23.822261] (-) TimerEvent: {}
+[23.923021] (-) TimerEvent: {}
+[24.024126] (-) TimerEvent: {}
+[24.125491] (-) TimerEvent: {}
+[24.226331] (-) TimerEvent: {}
+[24.327172] (-) TimerEvent: {}
+[24.428332] (-) TimerEvent: {}
+[24.529216] (-) TimerEvent: {}
+[24.630289] (-) TimerEvent: {}
+[24.731480] (-) TimerEvent: {}
+[24.832226] (-) TimerEvent: {}
+[24.932898] (-) TimerEvent: {}
+[25.033553] (-) TimerEvent: {}
+[25.135262] (-) TimerEvent: {}
+[25.236810] (-) TimerEvent: {}
+[25.337852] (-) TimerEvent: {}
+[25.438490] (-) TimerEvent: {}
+[25.539791] (-) TimerEvent: {}
+[25.640487] (-) TimerEvent: {}
+[25.741281] (-) TimerEvent: {}
+[25.763507] (beginner_tutorials) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[25.841711] (-) TimerEvent: {}
+[25.947274] (-) TimerEvent: {}
+[26.048856] (-) TimerEvent: {}
+[26.149764] (-) TimerEvent: {}
+[26.251111] (-) TimerEvent: {}
+[26.352855] (-) TimerEvent: {}
+[26.454400] (-) TimerEvent: {}
+[26.481671] (beginner_tutorials) StdoutLine: {'line': b'[ 92%] Built target listener\n'}
+[26.483484] (beginner_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[26.487185] (beginner_tutorials) CommandEnded: {'returncode': 2}
+[26.555277] (-) TimerEvent: {}
+[26.657166] (-) TimerEvent: {}
+[26.759124] (-) TimerEvent: {}
+[26.820049] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 2}
+[26.832450] (-) EventReactorShutdown: {}

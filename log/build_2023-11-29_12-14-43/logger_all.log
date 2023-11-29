@@ -1,0 +1,88 @@
+[2.373s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'beginner_tutorials']
+[2.373s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['beginner_tutorials'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7bc694f430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7bc694c700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7bc694c700>>)
+[2.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.496s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sas/ros2_ws/beginner_tutorials'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.545s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'beginner_tutorials'
+[2.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.868s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sas/ros2_ws/beginner_tutorials/install
+[2.910s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[2.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_target' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'beginner_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.275s] DEBUG:colcon.colcon_core.verb:Building package 'beginner_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials', 'merge_install': False, 'path': '/home/sas/ros2_ws/beginner_tutorials', 'symlink_install': False, 'test_result_base': None}
+[3.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sas/ros2_ws/beginner_tutorials' with build type 'ament_cmake'
+[3.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sas/ros2_ws/beginner_tutorials'
+[3.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[43.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sas/ros2_ws/beginner_tutorials/build/beginner_tutorials -- -j8 -l8
+[43.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beginner_tutorials)
+[43.767s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials' for CMake module files
+[43.768s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials' for CMake config files
+[43.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('beginner_tutorials', 'cmake_prefix_path')
+[43.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/cmake_prefix_path.ps1'
+[43.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/cmake_prefix_path.dsv'
+[43.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/cmake_prefix_path.sh'
+[43.814s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib'
+[43.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('beginner_tutorials', 'ld_library_path_lib')
+[43.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/ld_library_path_lib.ps1'
+[43.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/ld_library_path_lib.dsv'
+[43.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/hook/ld_library_path_lib.sh'
+[43.857s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/bin'
+[43.857s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/pkgconfig/beginner_tutorials.pc'
+[43.858s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/lib/python3.10/site-packages'
+[43.859s] Level 1:colcon.colcon_core.environment:checking '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/bin'
+[43.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.ps1'
+[43.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.dsv'
+[43.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.sh'
+[43.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.bash'
+[43.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/beginner_tutorials/package.zsh'
+[43.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sas/ros2_ws/beginner_tutorials/install/beginner_tutorials/share/colcon-core/packages/beginner_tutorials)
+[43.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[43.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[43.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[43.949s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.006s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[44.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[44.015s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.099s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sas/ros2_ws/beginner_tutorials/install/local_setup.ps1'
+[44.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sas/ros2_ws/beginner_tutorials/install/_local_setup_util_ps1.py'
+[44.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sas/ros2_ws/beginner_tutorials/install/setup.ps1'
+[44.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sas/ros2_ws/beginner_tutorials/install/local_setup.sh'
+[44.200s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sas/ros2_ws/beginner_tutorials/install/_local_setup_util_sh.py'
+[44.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sas/ros2_ws/beginner_tutorials/install/setup.sh'
+[44.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sas/ros2_ws/beginner_tutorials/install/local_setup.bash'
+[44.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sas/ros2_ws/beginner_tutorials/install/setup.bash'
+[44.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sas/ros2_ws/beginner_tutorials/install/local_setup.zsh'
+[44.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sas/ros2_ws/beginner_tutorials/install/setup.zsh'

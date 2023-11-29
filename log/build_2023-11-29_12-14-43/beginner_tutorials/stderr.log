@@ -1,0 +1,104 @@
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:54:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   92 |       const std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Request>
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   92 |       const std::shared_ptr<beginner_tutorials::srv::NewService::Request[01;31m[K>[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:54:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   92 |       const std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Request>
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   92 |       const std::shared_ptr<beginner_tutorials::srv::NewService::Request[01;31m[K>[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:54:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   92 |       const std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Request>
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   92 |       const std::shared_ptr<beginner_tutorials::srv::NewService::Request[01;31m[K>[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:13:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   92 |       const [01;31m[Kstd[m[K::shared_ptr<beginner_tutorials::srv::NewService::Request>
+      |             [01;31m[K^~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials::srv::NewService[m[K’ has not been declared
+   92 |       const std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Request>
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:92:7:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   92 |       [01;31m[Kconst[m[K std::shared_ptr<beginner_tutorials::srv::NewService::Request>
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:48:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   94 |       std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Response>
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |       std::shared_ptr<beginner_tutorials::srv::NewService::Response[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:48:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   94 |       std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Response>
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |       std::shared_ptr<beginner_tutorials::srv::NewService::Response[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:48:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   94 |       std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Response>
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |       std::shared_ptr<beginner_tutorials::srv::NewService::Response[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:7:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   94 |       [01;31m[Kstd[m[K::shared_ptr<beginner_tutorials::srv::NewService::Response>
+      |       [01;31m[K^~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials::srv::NewService[m[K’ has not been declared
+   94 |       std::shared_ptr<beginner_tutorials::srv::[01;31m[KNewService[m[K::Response>
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:94:7:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   94 |       [01;31m[Kstd[m[K::shared_ptr<beginner_tutorials::srv::NewService::Response>
+      |       [01;31m[K^~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:122:44:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+  122 |   rclcpp::Service<beginner_tutorials::srv::[01;31m[KNewService[m[K>::SharedPtr service_;
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:122:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |   rclcpp::Service<beginner_tutorials::srv::NewService[01;31m[K>[m[K::SharedPtr service_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:122:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  122 |   rclcpp::Service<beginner_tutorials::srv::NewService>::[01;31m[KSharedPtr[m[K service_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:122:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+  122 |   rclcpp::Service<beginner_tutorials::srv::NewService>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope
+   69 |     [01;31m[Kservice_[m[K = create_service<beginner_tutorials::srv::NewService>(
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:69:56:[m[K [01;31m[Kerror: [m[K‘[01m[KNewService[m[K’ is not a member of ‘[01m[Kbeginner_tutorials::srv[m[K’
+   69 |     service_ = create_service<beginner_tutorials::srv::[01;31m[KNewService[m[K>(
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:69:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisher::create_service<<expression error> >(const char [15], std::_Bind<void (Publisher::*(Publisher*, std::_Placeholder<1>, std::_Placeholder<2>))(...)>&)[m[K’
+   69 |     service_ = [01;31m[Kcreate_service<beginner_tutorials::srv::NewService>([m[K
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   70 | [01;31m[K        "custom_service", serviceCallbackPtr)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                      
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41[m[K,
+                 from [01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:11[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:69:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |     service_ = [01;31m[Kcreate_service<beginner_tutorials::srv::NewService>([m[K
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   70 | [01;31m[K        "custom_service", serviceCallbackPtr)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                      
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::change_message(...)[m[K’:
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   96 |     [01;31m[Kresponse[m[K->response_message =
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sas/ros2_ws/beginner_tutorials/src/publisher.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   97 |         [01;31m[Krequest[m[K->request_message + "Hey there, the service is modified";
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
